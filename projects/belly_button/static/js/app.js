@@ -37,7 +37,7 @@ function buildCharts(sampleID){
 		let layout1 = {
 			title: `Top 10 OTUs for ID ${sampleID}`,
 			xaxis: {title: 'Sample Values'},
-			yasis: {title: 'OTU ID'}
+			yaxis: {title: 'OTU ID'}
 		};
 
 		// Plot horizontal bar chart
@@ -61,7 +61,7 @@ function buildCharts(sampleID){
 		// Define trace layout for bubble chart
 		let layout2 = {
 			title: `OTU Bubble Chart for ID ${sampleID}`,
-			xasis: {title: 'OTU ID'},
+			xaxis: {title: 'OTU ID'},
 			yaxis: {title: 'Sample Values'}
 		};
 

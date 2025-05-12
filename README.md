@@ -33,7 +33,7 @@ We believe great companies are visible in the smallest decisions.
 This portal does not expose live archives or documents by default.  
 To request access or engage in diligence:
 
-📬 [ceo@gigodata.com](mailto:ceo@gigodata.com)
+📬 [investors@gigodata.com](mailto:ceo@gigodata.com)
 
 ---
 

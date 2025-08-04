@@ -1,0 +1,8 @@
+# security.txt for GIGO Data, Inc.
+
+Contact: mailto:security@gigodata.com
+Preferred-Languages: en
+Expires: 2025-12-31T23:59:59Z
+Canonical: https://gigodata.com/.well-known/security.txt
+
+# Thank you for helping us keep the internet safer.

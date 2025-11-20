@@ -2,112 +2,169 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
+    <!-- ========================================================= -->
+    <!--  PRIMARY PAGE METADATA                                   -->
+    <!-- ========================================================= -->
     <title>About – GIGO Data, Inc.</title>
-    <!-- Trigger redeploy – GIGO Open Graph image + meta cache bust -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="robots" content="noindex, follow"/>
-    <meta name="googlebot" content="noindex, follow"/>
-    <meta name="description" content="We clean the chaos out of data™ — GIGO Data, no mess, no stress, no loss. We never let garbage in our data — and were built to get the garbage out of yours."/>
-    <link rel="canonical" href="https://gigodata.com/"/>
-    
-    <link rel="preload" as="image" href="/opengraph/gigodata_og_preview.png">
 
-    <!--  CSP to allow Cloudflare Analytics -->
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://static.cloudflareinsights.com; object-src 'none'; base-uri 'self';">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="We clean the chaos out of data™ — GIGO Data, no mess, no stress, no loss. We never let garbage in our data — and were built to get the garbage out of yours.">
 
-    <!-- Favicon & Manifest -->
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png"/>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
-    <link rel="shortcut icon" href="/favicon.ico"/>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
-    <meta name="apple-mobile-web-app-title" content="GIGO Data, Inc."/>
-    <link rel="manifest" href="/site.webmanifest"/>
+    <!-- Canonical domain (MUST MATCH OG + SEO STANDARD) -->
+    <link rel="canonical" href="https://www.gigodata.com/">
 
-    <!-- Open Graph Metadata -->
+    <!-- Robots: visible to engines, but not indexed yet -->
+    <meta name="robots" content="noindex, follow">
+    <meta name="googlebot" content="noindex, follow">
+
+    <!-- ========================================================= -->
+    <!--  SECURITY / CSP                                           -->
+    <!-- ========================================================= -->
+    <meta http-equiv="Content-Security-Policy"
+          content="script-src 'self' https://static.cloudflareinsights.com; object-src 'none'; base-uri 'self';">
+
+    <!-- ========================================================= -->
+    <!--  ICONS / MANIFEST                                         -->
+    <!-- ========================================================= -->
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="GIGO Data, Inc.">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- ========================================================= -->
+    <!--  IMAGE PRELOAD                                            -->
+    <!-- ========================================================= -->
+    <link rel="preload" as="image"
+          href="/opengraph/gigodata_og_preview.png?v=3">
+
+    <!-- ========================================================= -->
+    <!--  OPEN GRAPH (Facebook, LinkedIn, Slack, iMessage)         -->
+    <!-- ========================================================= -->
     <meta property="og:title" content="GIGO Data, Inc.">
     <meta property="og:site_name" content="GIGO Data, Inc.">
-    <meta property="og:description" content="We clean the chaos out of data™ — GIGO Data, no mess, no stress, no loss. We never let garbage in our data — and were built to get the garbage out of yours.">
+    <meta property="og:description"
+          content="We clean the chaos out of data™ — GIGO Data, no mess, no stress, no loss. We never let garbage in our data — and were built to get the garbage out of yours.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://gigodata.com/">
-    <meta property="og:image" content="https://www.gigodata.com/opengraph/gigodata_og_preview.png" />
+    <meta property="og:url" content="https://www.gigodata.com/">
 
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    
+    <!-- Open Graph Image -->
+    <meta property="og:image"
+          content="https://www.gigodata.com/opengraph/gigodata_og_preview.png?v=3">
+    <meta property="og:image:secure_url"
+          content="https://www.gigodata.com/opengraph/gigodata_og_preview.png?v=3">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt"
+          content="GIGO Data, Inc. — We clean the chaos out of data™">
 
-    <!-- Twitter Metadata -->
+    <!-- ========================================================= -->
+    <!--  TWITTER CARDS                                            -->
+    <!-- ========================================================= -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@gigodata">
     <meta name="twitter:title" content="GIGO Data, Inc.">
-    <meta name="twitter:description" content="We clean the chaos out of data™ — GIGO Data, no mess, no stress, no loss. We never let garbage in our data — and were built to get the garbage out of yours.">
-    <meta name="twitter:image" content="https://www.gigodata.com/opengraph/gigodata_og_preview.png?v=2" />
-    <!-- JSON-LD Structured Data -->
+    <meta name="twitter:description"
+          content="We clean the chaos out of data™ — GIGO Data, no mess, no stress, no loss. We never let garbage in our data — and were built to get the garbage out of yours.">
+    <meta name="twitter:image"
+          content="https://www.gigodata.com/opengraph/gigodata_og_preview.png?v=3">
+
+    <!-- ========================================================= -->
+    <!--  JSON-LD: SCHEMA.ORG                                      -->
+    <!-- ========================================================= -->
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "GIGO Data, Inc.",
-        "url": "https://gigodata.com",
-        "description": "We clean the chaos out of data™ — GIGO Data, no mess, no stress, no loss. We never let garbage in our data — and were built to get the garbage out of yours",
-        "sameAs": []
-      }
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "GIGO Data, Inc.",
+      "url": "https://www.gigodata.com/",
+      "logo": "https://www.gigodata.com/opengraph/gigodata_og_preview.png?v=3",
+      "description": "We clean the chaos out of data™ — GIGO Data, no mess, no stress, no loss.",
+      "sameAs": []
+    }
     </script>
+
 </head>
 <body>
 
-    <section class="callout" style="background-color:#e8f0fe; border-left: 6px solid #1a73e8; border-radius: 12px; padding: 32px 24px; font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; color: #1a1a1a; max-width: 680px; margin: 60px auto; box-sizing: border-box;">
-        <h2 style="margin: 0 0 1em 0; font-size: 1.5rem; color: #174ea6;">
-            🌐 
-            <strong>About GIGO Data, Inc.</strong>
-        </h2>
+<!-- ========================================================= -->
+<!--  CONTENT                                                   -->
+<!-- ========================================================= -->
 
-        <p style="margin-top: 1.8em; font-size: 1.05rem; line-height: 1.6;">
-            <span style="background-color: #1a73e8; color: white; padding: 4px 6px; border-radius: 5px; font-weight: bold; font-size: 1.25rem;">GIGO Data, Inc.</span>
-             believes that 
-            <strong style="font-size: 1.45rem;">trust</strong>
-             is the foundation of all data systems. From how we authenticate our domain to how we store and transmit information, we engineer everything with security and transparency in mind.
-              
-        </p>
+<section class="callout"
+         style="background-color:#e8f0fe; border-left:6px solid #1a73e8; border-radius:12px;
+                padding:32px 24px; font-family:-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+                color:#1a1a1a; max-width:680px; margin:60px auto; box-sizing:border-box;">
 
-        <p style="margin-top: 1.4em; font-size: 1.05rem; line-height: 1.6;">
+    <h2 style="margin:0 0 1em 0; font-size:1.5rem; color:#174ea6;">
+        🌐 <strong>About GIGO Data, Inc.</strong>
+    </h2>
 
-                In 1957 
-            <a href="https://www.atlasobscura.com/articles/is-this-the-first-time-anyone-printed-garbage-in-garbage-out" target="_blank" style="color: #1a73e8; text-decoration: underline;">William D. Mellin</a>
-             explained that computers cannot think for themselves, and that "sloppily programmed" inputs inevitably lead to incorrect outputs:
-                
-            <br>
-            Thus, 
-            <span style="font-family: Georgia, serif; font-size: 19pt; font-style: italic; color: #023E8A;">GIGO</span>
-             became known as 
-            <span style="font-family: Georgia, serif; font-size: 15pt; color: #023E8A; font-style: italic;">"Garbage In, Garbage Out."</span>
-        </p>
+    <p style="margin-top:1.8em; font-size:1.05rem; line-height:1.6;">
+        <span style="background-color:#1a73e8; color:white; padding:4px 6px; border-radius:5px;
+                     font-weight:bold; font-size:1.25rem;">
+            GIGO Data, Inc.
+        </span>
+        believes that
+        <strong style="font-size:1.45rem;">trust</strong>
+        is the foundation of all data systems. From how we authenticate our domain to how we store
+        and transmit information, we engineer everything with security and transparency in mind.
+    </p>
 
-        <p style="margin-top: 1.4em; font-size: 1.05rem; line-height: 1.6;">
-            <span style="background-color: #1a73e8; color: white; padding: 4px 6px; border-radius: 5px; font-weight: bold; font-size: 1.25rem;">GIGO Data, Inc.'s</span>
-             entire infrastructure is built to eliminate the very conditions of sloppy data and broken encoding that gave rise to 
-                
-            <span style="font-family: Georgia, serif; font-size: 19pt; font-style: italic; color: #023E8A;">GIGO</span>
-             in the first place. We take pride in building systems where garbage never enters our data.
-              
-        </p>
+    <p style="margin-top:1.4em; font-size:1.05rem; line-height:1.6;">
+        In 1957
+        <a href="https://www.atlasobscura.com/articles/is-this-the-first-time-anyone-printed-garbage-in-garbage-out"
+           target="_blank" style="color:#1a73e8; text-decoration:underline;">William D. Mellin</a>
+        explained that computers cannot think for themselves, and that "sloppily programmed" inputs
+        inevitably lead to incorrect outputs.
+        <br><br>
+        Thus,
+        <span style="font-family:Georgia, serif; font-size:19pt; font-style:italic; color:#023E8A;">GIGO</span>
+        became known as
+        <span style="font-family:Georgia, serif; font-size:15pt; color:#023E8A; font-style:italic;">
+            "Garbage In, Garbage Out."
+        </span>
+    </p>
 
-        <p style="margin-top: 0.5em; font-size: 1.05rem; line-height: 1.6; text-align: center;">
-            — and were built to get the garbage out of yours.
-          </p>
+    <p style="margin-top:1.4em; font-size:1.05rem; line-height:1.6;">
+        <span style="background-color:#1a73e8; color:white; padding:4px 6px; border-radius:5px;
+                     font-weight:bold; font-size:1.25rem;">
+            GIGO Data, Inc.'s
+        </span>
+        entire infrastructure is built to eliminate the very conditions of sloppy data and broken
+        encoding that gave rise to
+        <span style="font-family:Georgia, serif; font-size:19pt; font-style:italic; color:#023E8A;">GIGO</span>
+        in the first place.
+        We take pride in building systems where garbage never enters our data.
+    </p>
 
-        <p style="margin-top: 1.4em; font-size: 1.05rem; line-height: 1.6;">
-            This site hosts our public DNS records, email compliance policies, and transparency commitments. Whether you're an investor, email gateway, partner, or community member — you're welcome here.
-          </p>
-    </section>
+    <p style="margin-top:0.5em; font-size:1.05rem; line-height:1.6; text-align:center;">
+        — and were built to get the garbage out of yours.
+    </p>
 
-<!-- Cloudflare Web Analytics -->
+    <p style="margin-top:1.4em; font-size:1.05rem; line-height:1.6;">
+        This site hosts our public DNS records, email compliance policies, and transparency
+        commitments. Whether you're an investor, email gateway, partner, or community member —
+        you're welcome here.
+    </p>
+
+</section>
+
+
+<!-- ========================================================= -->
+<!--  CLOUDFLARE ANALYTICS                                      -->
+<!-- ========================================================= -->
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js"
         data-cf-beacon='{"token": "d082788b0fb141fe976a6a41be449d98"}'>
 </script>
-<!-- End Cloudflare Web Analytics -->
 
-<img src="/opengraph/gigodata_og_preview.png" alt="OG preload" style="display:none" />
+<!-- Hidden preload of OG image -->
+<img src="/opengraph/gigodata_og_preview.png?v=3"
+     alt="GIGO Data OG Image"
+     style="display:none">
 
 </body>
 </html>
-<!-- trigger rebuild to fix OG image 404 -->

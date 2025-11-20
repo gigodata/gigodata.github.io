@@ -15,7 +15,7 @@
     <!-- Canonical domain (MUST MATCH OG + SEO STANDARD) -->
     <link rel="canonical" href="https://www.gigodata.com/">
 
-    <!-- Robots: visible to engines, but not indexed yet -->
+    <!-- Allow crawling but block indexing until site is officially launched -->
     <meta name="robots" content="noindex, follow">
     <meta name="googlebot" content="noindex, follow">
 
@@ -23,7 +23,7 @@
     <!--  SECURITY / CSP                                           -->
     <!-- ========================================================= -->
     <meta http-equiv="Content-Security-Policy"
-          content="script-src 'self' https://static.cloudflareinsights.com; object-src 'none'; base-uri 'self';">
+          content="default-src 'self'; script-src 'self' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none';">
 
     <!-- ========================================================= -->
     <!--  ICONS / MANIFEST                                         -->
@@ -36,10 +36,10 @@
     <link rel="manifest" href="/site.webmanifest">
 
     <!-- ========================================================= -->
-    <!--  IMAGE PRELOAD                                            -->
+    <!--  IMAGE PRELOAD FOR SCRAPERS                              -->
     <!-- ========================================================= -->
     <link rel="preload" as="image"
-          href="/opengraph/gigodata_og_preview.png?v=3">
+          href="https://www.gigodata.com/opengraph/gigodata_og_preview.png?v=3">
 
     <!-- ========================================================= -->
     <!--  OPEN GRAPH (Facebook, LinkedIn, Slack, iMessage)         -->
@@ -62,7 +62,7 @@
           content="GIGO Data, Inc. — We clean the chaos out of data™">
 
     <!-- ========================================================= -->
-    <!--  TWITTER CARDS                                            -->
+    <!--  TWITTER CARDS (Now X)                                   -->
     <!-- ========================================================= -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@gigodata">
@@ -90,10 +90,6 @@
 </head>
 <body>
 
-<!-- ========================================================= -->
-<!--  CONTENT                                                   -->
-<!-- ========================================================= -->
-
 <section class="callout"
          style="background-color:#e8f0fe; border-left:6px solid #1a73e8; border-radius:12px;
                 padding:32px 24px; font-family:-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
@@ -108,18 +104,15 @@
                      font-weight:bold; font-size:1.25rem;">
             GIGO Data, Inc.
         </span>
-        believes that
-        <strong style="font-size:1.45rem;">trust</strong>
-        is the foundation of all data systems. From how we authenticate our domain to how we store
-        and transmit information, we engineer everything with security and transparency in mind.
+        believes that <strong style="font-size:1.45rem;">trust</strong> is the foundation of all data systems.
+        From domain authentication to secure transport, everything we build protects data integrity.
     </p>
 
     <p style="margin-top:1.4em; font-size:1.05rem; line-height:1.6;">
-        In 1957
+        In 1957,
         <a href="https://www.atlasobscura.com/articles/is-this-the-first-time-anyone-printed-garbage-in-garbage-out"
            target="_blank" style="color:#1a73e8; text-decoration:underline;">William D. Mellin</a>
-        explained that computers cannot think for themselves, and that "sloppily programmed" inputs
-        inevitably lead to incorrect outputs.
+        described that poorly structured inputs always produce incorrect outputs.
         <br><br>
         Thus,
         <span style="font-family:Georgia, serif; font-size:19pt; font-style:italic; color:#023E8A;">GIGO</span>
@@ -134,25 +127,19 @@
                      font-weight:bold; font-size:1.25rem;">
             GIGO Data, Inc.'s
         </span>
-        entire infrastructure is built to eliminate the very conditions of sloppy data and broken
-        encoding that gave rise to
-        <span style="font-family:Georgia, serif; font-size:19pt; font-style:italic; color:#023E8A;">GIGO</span>
-        in the first place.
-        We take pride in building systems where garbage never enters our data.
+        entire infrastructure is engineered to eliminate the conditions that create GIGO in the first place —
+        ensuring that garbage never enters our data systems.
     </p>
 
     <p style="margin-top:0.5em; font-size:1.05rem; line-height:1.6; text-align:center;">
-        — and were built to get the garbage out of yours.
+        — and we're built to get the garbage out of yours.
     </p>
 
     <p style="margin-top:1.4em; font-size:1.05rem; line-height:1.6;">
-        This site hosts our public DNS records, email compliance policies, and transparency
-        commitments. Whether you're an investor, email gateway, partner, or community member —
-        you're welcome here.
+        This site hosts our public DNS records, email compliance policies, and transparency commitments.
     </p>
 
 </section>
-
 
 <!-- ========================================================= -->
 <!--  CLOUDFLARE ANALYTICS                                      -->
@@ -162,7 +149,7 @@
 </script>
 
 <!-- Hidden preload of OG image -->
-<img src="/opengraph/gigodata_og_preview.png?v=3"
+<img src="https://www.gigodata.com/opengraph/gigodata_og_preview.png?v=3"
      alt="GIGO Data OG Image"
      style="display:none">
 

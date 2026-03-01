@@ -1518,15 +1518,25 @@
   <script>
     // Scroll reveal
     const reveals = document.querySelectorAll('.reveal');
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-        }
-      });
-    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
 
-    reveals.forEach(el => observer.observe(el));
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      }, { threshold: 0.05, rootMargin: '0px 0px -20px 0px' });
+      reveals.forEach(el => observer.observe(el));
+    } else {
+      // Fallback: make everything visible immediately
+      reveals.forEach(el => el.classList.add('visible'));
+    }
+
+    // Safety net: any reveal element still hidden after 2s gets shown
+    setTimeout(() => {
+      reveals.forEach(el => el.classList.add('visible'));
+    }, 2000);
 
     // Formspree AJAX submission
     const contactForm = document.querySelector('.contact-form');

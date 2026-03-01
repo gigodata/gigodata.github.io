@@ -1,160 +1,1595 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GIGO Data™ — Data Quality. Governance. AI Integrity.</title>
 
-    <!-- ========================================================= -->
-    <!--  PRIMARY PAGE METADATA                                   -->
-    <!-- ========================================================= -->
-    <title>About – GIGO Data, Inc.</title>
+  <meta name="description"
+        content="We clean the chaos out of data™ — GIGO Data, no mess, no stress, no loss. We never let garbage in our data — and we're built to get the garbage out of yours.">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-          content="We clean the chaos out of data™ — GIGO Data, no mess, no stress, no loss. We never let garbage in our data — and we're built to get the garbage out of yours.">
+  <link rel="canonical" href="https://www.gigodata.com/">
 
-    <!-- Canonical domain (MUST MATCH OG + SEO STANDARD) -->
-    <link rel="canonical" href="https://www.gigodata.com/">
+  <meta name="robots" content="index, follow">
 
-    <!-- Allow OG previews but block SEO indexing until official launch -->
-    <meta name="robots" content="noindex, follow">
+  <!-- ========================================================= -->
+  <!--  SECURITY / CSP                                           -->
+  <!-- ========================================================= -->
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self';
+                 script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com;
+                 style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+                 font-src 'self' https://fonts.gstatic.com;
+                 img-src 'self' https://www.gigodata.com data:;
+                 connect-src 'self' https://formspree.io https://cloudflareinsights.com;
+                 form-action https://formspree.io;
+                 frame-ancestors 'none';
+                 object-src 'none';
+                 base-uri 'self';">
 
-    <!-- ========================================================= -->
-    <!--  SECURITY / CSP                                           -->
-    <!-- ========================================================= -->
-    <meta http-equiv="Content-Security-Policy"
-          content="default-src 'self'; script-src 'self' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; img-src 'self' https://www.gigodata.com data:;">
+  <!-- ========================================================= -->
+  <!--  ICONS / MANIFEST                                         -->
+  <!-- ========================================================= -->
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-title" content="GIGO Data, Inc.">
+  <link rel="manifest" href="/site.webmanifest">
 
-    <!-- ========================================================= -->
-    <!--  ICONS / MANIFEST                                         -->
-    <!-- ========================================================= -->
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <meta name="apple-mobile-web-app-title" content="GIGO Data, Inc.">
-    <link rel="manifest" href="/site.webmanifest">
+  <!-- ========================================================= -->
+  <!--  IMAGE PRELOAD FOR SCRAPERS                               -->
+  <!-- ========================================================= -->
+  <link rel="preload" as="image"
+        href="https://www.gigodata.com/opengraph/gigodata_og_preview.png">
 
-    <!-- ========================================================= -->
-    <!--  IMAGE PRELOAD FOR SCRAPERS                              -->
-    <!-- ========================================================= -->
-    <link rel="preload" as="image"
-          href="https://www.gigodata.com/opengraph/gigodata_og_preview.png">
+  <!-- ========================================================= -->
+  <!--  OPEN GRAPH (Facebook, LinkedIn, Slack, iMessage)         -->
+  <!-- ========================================================= -->
+  <meta property="og:title" content="GIGO Data™ — Data Quality. Governance. AI Integrity.">
+  <meta property="og:site_name" content="GIGO Data, Inc.">
+  <meta property="og:description"
+        content="We clean the chaos out of data™ — GIGO Data, no mess, no stress, no loss. We never let garbage in our data — and we're built to get the garbage out of yours.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.gigodata.com/">
+  <meta property="og:image"
+        content="https://www.gigodata.com/opengraph/gigodata_og_preview.png">
+  <meta property="og:image:secure_url"
+        content="https://www.gigodata.com/opengraph/gigodata_og_preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt"
+        content="GIGO Data, Inc. — We clean the chaos out of data™">
 
-    <!-- ========================================================= -->
-    <!--  OPEN GRAPH (Facebook, LinkedIn, Slack, iMessage)         -->
-    <!-- ========================================================= -->
-    <meta property="og:title" content="GIGO Data, Inc.">
-    <meta property="og:site_name" content="GIGO Data, Inc.">
-    <meta property="og:description"
-          content="We clean the chaos out of data™ — GIGO Data, no mess, no stress, no loss. We never let garbage in our data — and we're built to get the garbage out of yours.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.gigodata.com/">
+  <!-- ========================================================= -->
+  <!--  TWITTER CARDS (Now X)                                   -->
+  <!-- ========================================================= -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@gigodata">
+  <meta name="twitter:title" content="GIGO Data™ — Data Quality. Governance. AI Integrity.">
+  <meta name="twitter:description"
+        content="We clean the chaos out of data™ — GIGO Data, no mess, no stress, no loss.">
+  <meta name="twitter:image"
+        content="https://www.gigodata.com/opengraph/gigodata_og_preview.png">
 
-    <!-- Open Graph Image -->
-    <meta property="og:image"
-          content="https://www.gigodata.com/opengraph/gigodata_og_preview.png">
-    <meta property="og:image:secure_url"
-          content="https://www.gigodata.com/opengraph/gigodata_og_preview.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:alt"
-          content="GIGO Data, Inc. — We clean the chaos out of data™">
+  <!-- ========================================================= -->
+  <!--  JSON-LD: SCHEMA.ORG                                      -->
+  <!-- ========================================================= -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "GIGO Data, Inc.",
+    "url": "https://www.gigodata.com/",
+    "logo": "https://www.gigodata.com/opengraph/gigodata_og_preview.png",
+    "description": "We clean the chaos out of data™ — GIGO Data, no mess, no stress, no loss.",
+    "sameAs": [
+      "https://www.linkedin.com/company/gigo-data-consulting",
+      "https://twitter.com/gigodata"
+    ]
+  }
+  </script>
+  <!--
+    CSP NOTE: If you apply a strict Content-Security-Policy (e.g. from index.html),
+    you must add these allowances or Google Fonts will be blocked:
+      style-src  'self' 'unsafe-inline' https://fonts.googleapis.com;
+      font-src   'self' https://fonts.gstatic.com;
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=IBM+Plex+Mono:wght@300;400;500&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
 
-    <!-- ========================================================= -->
-    <!--  TWITTER CARDS (Now X)                                   -->
-    <!-- ========================================================= -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@gigodata">
-    <meta name="twitter:title" content="GIGO Data, Inc.">
-    <meta name="twitter:description"
-          content="We clean the chaos out of data™ — GIGO Data, no mess, no stress, no loss.">
-    <meta name="twitter:image"
-          content="https://www.gigodata.com/opengraph/gigodata_og_preview.png">
-
-    <!-- ========================================================= -->
-    <!--  JSON-LD: SCHEMA.ORG                                      -->
-    <!-- ========================================================= -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "GIGO Data, Inc.",
-      "url": "https://www.gigodata.com/",
-      "logo": "https://www.gigodata.com/opengraph/gigodata_og_preview.png",
-      "description": "We clean the chaos out of data™ — GIGO Data, no mess, no stress, no loss.",
-      "sameAs": []
+  <style>
+    :root {
+      --black:       #0a0a0a;
+      --off-white:   #f4f0e8;
+      --warm-white:  #faf8f3;
+      --cream:       #ece8de;
+      --gold:        #b8962e;
+      --gold-light:  #d4af5a;
+      --gold-dim:    #7a6020;
+      --red:         #8b1a1a;
+      --mid-gray:    #4a4a4a;
+      --light-gray:  #9a9a9a;
+      --rule:        #2a2a2a;
     }
-    </script>
 
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--black);
+      color: var(--off-white);
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-weight: 300;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    /* ── GRAIN OVERLAY ── */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.035'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 9999;
+      opacity: 0.4;
+    }
+
+    /* ── NAVIGATION ── */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      padding: 0 4rem;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(10,10,10,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .nav-logo {
+      font-family: 'IBM Plex Mono', monospace;
+      font-weight: 500;
+      font-size: 0.95rem;
+      letter-spacing: 0.12em;
+      color: var(--gold);
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .nav-logo span {
+      color: var(--off-white);
+      opacity: 0.5;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2.5rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--light-gray);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover { color: var(--gold); }
+
+    /* ── HERO ── */
+    #hero {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 9rem 5rem 6rem 6rem;
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero-overline {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 2rem;
+      opacity: 0;
+      animation: fadeUp 0.8s ease forwards 0.3s;
+    }
+
+    .hero-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(3.5rem, 6vw, 7rem);
+      font-weight: 900;
+      line-height: 0.95;
+      letter-spacing: -0.02em;
+      color: var(--off-white);
+      margin-bottom: 1.5rem;
+      opacity: 0;
+      animation: fadeUp 0.9s ease forwards 0.5s;
+    }
+
+    .hero-title em {
+      font-style: italic;
+      color: var(--gold);
+    }
+
+    .hero-rule {
+      width: 60px;
+      height: 1px;
+      background: var(--gold);
+      margin-bottom: 2rem;
+      opacity: 0;
+      animation: expandRule 0.8s ease forwards 0.8s;
+      transform-origin: left;
+    }
+
+    .hero-sub {
+      font-size: 1.05rem;
+      font-weight: 300;
+      line-height: 1.75;
+      color: var(--light-gray);
+      max-width: 420px;
+      opacity: 0;
+      animation: fadeUp 0.9s ease forwards 1s;
+    }
+
+    .hero-sub strong {
+      color: var(--off-white);
+      font-weight: 400;
+    }
+
+    .hero-cta {
+      margin-top: 3rem;
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+      opacity: 0;
+      animation: fadeUp 0.9s ease forwards 1.2s;
+    }
+
+    .btn-primary {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--black);
+      background: var(--gold);
+      padding: 0.9rem 2rem;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .btn-primary:hover {
+      background: var(--gold-light);
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--light-gray);
+      text-decoration: none;
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 2px;
+      transition: color 0.2s, border-color 0.2s;
+    }
+
+    .btn-secondary:hover {
+      color: var(--gold);
+      border-color: var(--gold);
+    }
+
+    /* Hero right — typographic statement panel */
+    .hero-right {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-left: 1px solid var(--rule);
+      overflow: hidden;
+      opacity: 0;
+      animation: fadeIn 1.2s ease forwards 0.8s;
+    }
+
+    .hero-right-inner {
+      padding: 4rem;
+      position: relative;
+      z-index: 2;
+    }
+
+    .axiom {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.2rem, 2.2vw, 2rem);
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.5;
+      color: var(--off-white);
+      opacity: 0.85;
+      border-left: 2px solid var(--gold);
+      padding-left: 2rem;
+      margin-bottom: 3.5rem;
+    }
+
+    .axiom-attr {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.62rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--gold-dim);
+      margin-top: 1rem;
+      padding-left: 2rem;
+      display: block;
+    }
+
+    .hero-stat-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2px;
+      margin-top: 4rem;
+    }
+
+    .hero-stat {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--rule);
+      padding: 1.5rem;
+    }
+
+    .hero-stat-number {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--gold);
+      line-height: 1;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero-stat-label {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--light-gray);
+    }
+
+    /* background grid lines */
+    .hero-right::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(184,150,46,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(184,150,46,0.04) 1px, transparent 1px);
+      background-size: 60px 60px;
+    }
+
+    /* ── DIVIDER ── */
+    .section-divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--rule), var(--gold-dim), var(--rule), transparent);
+      margin: 0;
+    }
+
+    /* ── PRINCIPLE STRIP ── */
+    #principle {
+      background: var(--gold);
+      padding: 1.5rem 6rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 3rem;
+      overflow: hidden;
+    }
+
+    .principle-text {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.75rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--black);
+      white-space: nowrap;
+      animation: marquee 24s linear infinite;
+    }
+
+    @keyframes marquee {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    .principle-strip-inner {
+      display: flex;
+      gap: 6rem;
+      width: max-content;
+    }
+
+    /* ── SECTION BASE ── */
+    section {
+      position: relative;
+    }
+
+    .section-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 6rem;
+    }
+
+    .section-label {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.62rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.2rem, 4vw, 4rem);
+      font-weight: 700;
+      line-height: 1.1;
+      color: var(--off-white);
+      margin-bottom: 1.5rem;
+    }
+
+    h2 em {
+      font-style: italic;
+      color: var(--gold);
+    }
+
+    /* ── WHAT WE DO ── */
+    #what {
+      padding: 8rem 0;
+      background: var(--black);
+    }
+
+    .what-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8rem;
+      margin-top: 5rem;
+      align-items: start;
+    }
+
+    .what-intro {
+      font-size: 1.15rem;
+      line-height: 1.8;
+      color: var(--light-gray);
+      font-style: italic;
+    }
+
+    .what-intro strong {
+      color: var(--off-white);
+      font-style: normal;
+    }
+
+    .what-intro p + p {
+      margin-top: 1.5rem;
+    }
+
+    .services-list {
+      list-style: none;
+      border-top: 1px solid var(--rule);
+    }
+
+    .service-item {
+      border-bottom: 1px solid var(--rule);
+      padding: 2rem 0;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 2rem;
+      align-items: start;
+      cursor: default;
+      transition: background 0.2s;
+    }
+
+    .service-item:hover .service-name {
+      color: var(--gold);
+    }
+
+    .service-num {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.62rem;
+      letter-spacing: 0.1em;
+      color: var(--gold-dim);
+      padding-top: 4px;
+      min-width: 2rem;
+    }
+
+    .service-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--off-white);
+      margin-bottom: 0.5rem;
+      transition: color 0.2s;
+    }
+
+    .service-desc {
+      font-size: 0.85rem;
+      color: var(--light-gray);
+      line-height: 1.65;
+    }
+
+    /* ── THE PRINCIPLE ── */
+    #the-principle {
+      padding: 8rem 0;
+      background: #0f0e0b;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .principle-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8rem;
+      align-items: center;
+    }
+
+    .principle-mono {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: clamp(1.8rem, 3vw, 3.5rem);
+      font-weight: 300;
+      line-height: 1.3;
+      color: var(--off-white);
+      letter-spacing: -0.01em;
+    }
+
+    .principle-mono .highlight {
+      color: var(--gold);
+      font-weight: 500;
+    }
+
+    .principle-mono .strikethrough {
+      text-decoration: line-through;
+      opacity: 0.35;
+      color: var(--red);
+    }
+
+    .principle-body {
+      border-left: 2px solid var(--rule);
+      padding-left: 3rem;
+    }
+
+    .principle-body p {
+      font-size: 1rem;
+      color: var(--light-gray);
+      line-height: 1.85;
+      margin-bottom: 1.5rem;
+    }
+
+    .principle-body p strong {
+      color: var(--off-white);
+      font-weight: 400;
+    }
+
+    /* ── WHY THIS MATTERS ── */
+    #why {
+      padding: 8rem 0;
+    }
+
+    .domain-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2px;
+      margin-top: 5rem;
+    }
+
+    .domain-card {
+      background: rgba(255,255,255,0.02);
+      border: 1px solid var(--rule);
+      padding: 2.5rem 2rem;
+      position: relative;
+      transition: border-color 0.3s, background 0.3s;
+      overflow: hidden;
+    }
+
+    .domain-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: var(--gold);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.4s ease;
+    }
+
+    .domain-card:hover::before {
+      transform: scaleX(1);
+    }
+
+    .domain-card:hover {
+      background: rgba(184,150,46,0.04);
+      border-color: var(--gold-dim);
+    }
+
+    .domain-year {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold-dim);
+      margin-bottom: 1.5rem;
+    }
+
+    .domain-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--off-white);
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+
+    .domain-lesson {
+      font-size: 0.85rem;
+      color: var(--light-gray);
+      line-height: 1.65;
+    }
+
+    /* ── THE STANDARD ── */
+    #standard {
+      padding: 8rem 0;
+      background: #0f0e0b;
+      border-top: 1px solid var(--rule);
+    }
+
+    .questions-header {
+      display: grid;
+      grid-template-columns: 1fr 1.5fr;
+      gap: 8rem;
+      margin-bottom: 5rem;
+      align-items: end;
+    }
+
+    .questions-header p {
+      font-size: 1rem;
+      color: var(--light-gray);
+      line-height: 1.85;
+    }
+
+    .questions-list {
+      list-style: none;
+      counter-reset: q;
+    }
+
+    .question-item {
+      counter-increment: q;
+      border-bottom: 1px solid var(--rule);
+      padding: 2.5rem 0;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 3rem;
+      align-items: start;
+    }
+
+    .question-item::before {
+      content: counter(q, decimal-leading-zero);
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.12em;
+      color: var(--gold-dim);
+      padding-top: 6px;
+    }
+
+    .question-text {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      font-weight: 400;
+      font-style: italic;
+      color: var(--off-white);
+      line-height: 1.5;
+    }
+
+    /* ── FOUNDER ── */
+    #founder {
+      padding: 8rem 0;
+    }
+
+    .founder-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8rem;
+      align-items: start;
+    }
+
+    .founder-quote {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.4rem, 2.5vw, 2rem);
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.5;
+      color: var(--off-white);
+      border-left: 2px solid var(--gold);
+      padding-left: 2.5rem;
+      margin-bottom: 3rem;
+    }
+
+    .founder-name {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.5rem;
+      padding-left: 2.5rem;
+    }
+
+    .founder-title {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.12em;
+      color: var(--light-gray);
+      padding-left: 2.5rem;
+    }
+
+    .founder-bio {
+      border-top: 1px solid var(--rule);
+      padding-top: 3rem;
+    }
+
+    .founder-bio p {
+      font-size: 0.95rem;
+      color: var(--light-gray);
+      line-height: 1.85;
+      margin-bottom: 1.5rem;
+    }
+
+    .founder-bio p strong {
+      color: var(--off-white);
+      font-weight: 400;
+    }
+
+    .career-track {
+      margin-top: 2.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .career-item {
+      display: grid;
+      grid-template-columns: 110px 1fr;
+      gap: 1.5rem;
+      padding: 1rem 0;
+      border-bottom: 1px solid var(--rule);
+      align-items: baseline;
+    }
+
+    .career-year {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.12em;
+      color: var(--gold-dim);
+    }
+
+    .career-place {
+      font-size: 0.85rem;
+      color: var(--off-white);
+    }
+
+    .career-place span {
+      color: var(--light-gray);
+      font-size: 0.8rem;
+    }
+
+    /* ── VOICE / WRITING ── */
+    #voice {
+      padding: 8rem 0;
+      background: #0f0e0b;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .voice-header {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8rem;
+      align-items: end;
+      margin-bottom: 5rem;
+    }
+
+    .voice-intro {
+      font-size: 1rem;
+      color: var(--light-gray);
+      line-height: 1.85;
+    }
+
+    .articles-list {
+      list-style: none;
+    }
+
+    .article-item {
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .article-link {
+      display: grid;
+      grid-template-columns: 60px 1fr auto;
+      gap: 2rem;
+      padding: 2rem 0;
+      text-decoration: none;
+      align-items: center;
+      transition: background 0.2s;
+    }
+
+    .article-link:hover .article-title {
+      color: var(--gold);
+    }
+
+    .article-num {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.15em;
+      color: var(--gold-dim);
+    }
+
+    .article-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.1rem;
+      color: var(--off-white);
+      transition: color 0.2s;
+      line-height: 1.4;
+    }
+
+    .article-date {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.58rem;
+      letter-spacing: 0.12em;
+      color: var(--light-gray);
+      white-space: nowrap;
+    }
+
+    .article-arrow {
+      color: var(--gold-dim);
+      font-size: 0.9rem;
+      margin-left: 1rem;
+    }
+
+    /* ── CONTACT / FOOTER ── */
+    #contact {
+      padding: 8rem 0 4rem;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8rem;
+      margin-bottom: 8rem;
+    }
+
+    .contact-statement {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.8rem, 3vw, 3rem);
+      font-weight: 700;
+      line-height: 1.2;
+      color: var(--off-white);
+      margin-bottom: 2rem;
+    }
+
+    .contact-statement em {
+      color: var(--gold);
+      font-style: italic;
+    }
+
+    .contact-body {
+      font-size: 1rem;
+      color: var(--light-gray);
+      line-height: 1.85;
+      margin-bottom: 3rem;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .form-field {
+      border: 1px solid var(--rule);
+      border-bottom: none;
+      position: relative;
+    }
+
+    .form-field:last-of-type {
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .form-field label {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.58rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold-dim);
+      position: absolute;
+      top: 1rem;
+      left: 1.2rem;
+    }
+
+    .form-field input,
+    .form-field textarea {
+      width: 100%;
+      background: transparent;
+      border: none;
+      outline: none;
+      color: var(--off-white);
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 300;
+      padding: 2.8rem 1.2rem 1.2rem;
+      resize: none;
+    }
+
+    .form-field input::placeholder,
+    .form-field textarea::placeholder {
+      color: var(--rule);
+    }
+
+    .form-submit {
+      margin-top: 1.5rem;
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+    }
+
+    footer {
+      border-top: 1px solid var(--rule);
+      padding: 2.5rem 6rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .footer-logo {
+      font-family: 'IBM Plex Mono', monospace;
+      font-weight: 500;
+      font-size: 0.8rem;
+      letter-spacing: 0.15em;
+      color: var(--gold);
+      text-transform: uppercase;
+    }
+
+    .footer-copy {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.58rem;
+      letter-spacing: 0.12em;
+      color: var(--light-gray);
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .footer-links a {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.58rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--light-gray);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover { color: var(--gold); }
+
+    /* ── ANIMATIONS ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+
+    @keyframes expandRule {
+      from { opacity: 0; transform: scaleX(0); }
+      to   { opacity: 1; transform: scaleX(1); }
+    }
+
+    /* Scroll-reveal utility */
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .reveal-delay-1 { transition-delay: 0.1s; }
+    .reveal-delay-2 { transition-delay: 0.2s; }
+    .reveal-delay-3 { transition-delay: 0.3s; }
+    .reveal-delay-4 { transition-delay: 0.4s; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 1024px) {
+      nav { padding: 0 2rem; }
+      .hero-left { padding: 8rem 3rem 5rem 3rem; }
+      .hero-right-inner { padding: 3rem 2.5rem; }
+      .section-inner { padding: 0 3rem; }
+      .what-grid,
+      .principle-layout,
+      .founder-layout,
+      .voice-header,
+      .questions-header,
+      .contact-grid { grid-template-columns: 1fr; gap: 4rem; }
+      .domain-grid { grid-template-columns: 1fr 1fr; }
+      footer { padding: 2rem 3rem; flex-direction: column; gap: 1.5rem; text-align: center; }
+    }
+
+    @media (max-width: 768px) {
+      #hero { grid-template-columns: 1fr; }
+      .hero-right { display: none; }
+      .hero-left { padding: 7rem 2rem 4rem; }
+      .section-inner { padding: 0 2rem; }
+      nav { padding: 0 1.5rem; }
+      .nav-links { display: none; }
+      #principle { padding: 1rem 2rem; }
+      .domain-grid { grid-template-columns: 1fr; }
+      .article-link { grid-template-columns: 40px 1fr; }
+      .article-date { display: none; }
+      .hero-stat-grid { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
 </head>
 <body>
 
-<section class="callout"
-         style="background-color:#e8f0fe; border-left:6px solid #1a73e8; border-radius:12px;
-                padding:32px 24px; font-family:-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
-                color:#1a1a1a; max-width:680px; margin:60px auto; box-sizing:border-box;">
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="#hero" class="nav-logo">GIGO Data<span>™</span></a>
+    <ul class="nav-links">
+      <li><a href="#what">What We Do</a></li>
+      <li><a href="#the-principle">The Principle</a></li>
+      <li><a href="#founder">Founder</a></li>
+      <li><a href="#voice">Writing</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-    <h2 style="margin:0 0 1em 0; font-size:1.5rem; color:#174ea6;">
-        🌐 <strong>About GIGO Data, Inc.</strong>
-    </h2>
-
-    <p style="margin-top:1.8em; font-size:1.05rem; line-height:1.6;">
-        <span style="background-color:#1a73e8; color:white; padding:4px 6px; border-radius:5px;
-                     font-weight:bold; font-size:1.25rem;">
-            GIGO Data, Inc.
-        </span>
-        believes that <strong style="font-size:1.45rem;">trust</strong> is the foundation of all data systems.
-        From domain authentication to secure transport, everything we build protects data integrity.
-    </p>
-
-    <p style="margin-top:1.4em; font-size:1.05rem; line-height:1.6;">
-        In 1957,
-        <a href="https://www.atlasobscura.com/articles/is-this-the-first-time-anyone-printed-garbage-in-garbage-out"
-           target="_blank" style="color:#1a73e8; text-decoration:underline;">William D. Mellin</a>
-        described that poorly structured inputs always produce incorrect outputs.
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-left">
+      <p class="hero-overline">Data Quality · Governance · AI Integrity</p>
+      <h1 class="hero-title">
+        The machine does<br>
+        only what you<br>
+        <em>tell it to do.</em>
+      </h1>
+      <div class="hero-rule"></div>
+      <p class="hero-sub">
+        <strong>Garbage In, Garbage Out</strong> is one of the oldest principles in computing.
+        It is also the least respected — at the moment when its consequences are largest.
         <br><br>
-        Thus,
-        <span style="font-family:Georgia, serif; font-size:19pt; font-style:italic; color:#023E8A;">GIGO</span>
-        became known as
-        <span style="font-family:Georgia, serif; font-size:15pt; color:#023E8A; font-style:italic;">
-            "Garbage In, Garbage Out."
-        </span>
-    </p>
+        GIGO Data™ works with organisations that cannot afford to discover the problem
+        after the system has already run.
+      </p>
+      <div class="hero-cta">
+        <a href="#what" class="btn-primary">The Work</a>
+        <a href="#contact" class="btn-secondary">Start a Conversation</a>
+      </div>
+    </div>
 
-    <p style="margin-top:1.4em; font-size:1.05rem; line-height:1.6;">
-        <span style="background-color:#1a73e8; color:white; padding:4px 6px; border-radius:5px;
-                     font-weight:bold; font-size:1.25rem;">
-            GIGO Data, Inc.'s
-        </span>
-        entire infrastructure is engineered to eliminate the conditions that create GIGO in the first place —
-        ensuring that garbage never enters our data systems.
-    </p>
+    <div class="hero-right">
+      <div class="hero-right-inner">
+        <p class="axiom">
+          "Before GIGO Data™ had a name,
+          it had a problem — and I had been
+          watching it accumulate for
+          forty-five years."
+        </p>
+        <span class="axiom-attr">Adrian Wise Santos — Founder, GIGO Data™</span>
 
-    <p style="margin-top:0.5em; font-size:1.05rem; line-height:1.6; text-align:center;">
-        — and we're built to get the garbage out of yours.
-    </p>
+        <div class="hero-stat-grid">
+          <div class="hero-stat">
+            <div class="hero-stat-number">45</div>
+            <div class="hero-stat-label">Years Observing<br>the Same Failure Mode</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-number">4</div>
+            <div class="hero-stat-label">Domains:<br>Aviation · Finance · Apple · Paris</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-number">3</div>
+            <div class="hero-stat-label">Days to Resolve<br>AntennaGate vs. Six Weeks</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-number">1</div>
+            <div class="hero-stat-label">Principle:<br>Input Quality Determines Everything</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <p style="margin-top:1.4em; font-size:1.05rem; line-height:1.6;">
-        This site hosts our public DNS records, email compliance policies, and transparency commitments.
-    </p>
+  <!-- PRINCIPLE STRIP -->
+  <div id="principle">
+    <div class="principle-strip-inner principle-text">
+      <span>DATA QUALITY IS NOT A FEATURE — IT IS A PRECONDITION &nbsp;·&nbsp; </span>
+      <span>GOVERNANCE IS DESIGN &nbsp;·&nbsp; </span>
+      <span>WRONG INPUT · WRONG ANSWER · EVERY TIME &nbsp;·&nbsp; </span>
+      <span>WILLIAM D. MELLIN, 1957: "SLOPPILY PROGRAMMED INPUTS INEVITABLY LEAD TO INCORRECT OUTPUTS." &nbsp;·&nbsp; </span>
+      <span>THE SYSTEM DOES NOT COMPENSATE FOR INCORRECT INPUTS &nbsp;·&nbsp; </span>
+      <span>DETERMINING QUALITY AFTER THE SYSTEM RUNS IS NOT GOVERNANCE: IT IS DAMAGE CONTROL &nbsp;·&nbsp; </span>
+      <span>DATA QUALITY IS NOT A FEATURE — IT IS A PRECONDITION &nbsp;·&nbsp; </span>
+      <span>GOVERNANCE IS DESIGN &nbsp;·&nbsp; </span>
+      <span>WRONG INPUT · WRONG ANSWER · EVERY TIME &nbsp;·&nbsp; </span>
+      <span>WILLIAM D. MELLIN, 1957: "SLOPPILY PROGRAMMED INPUTS INEVITABLY LEAD TO INCORRECT OUTPUTS." &nbsp;·&nbsp; </span>
+      <span>THE SYSTEM DOES NOT COMPENSATE FOR INCORRECT INPUTS &nbsp;·&nbsp; </span>
+      <span>DETERMINING QUALITY AFTER THE SYSTEM RUNS IS NOT GOVERNANCE: IT IS DAMAGE CONTROL &nbsp;·&nbsp; </span>
+    </div>
+  </div>
 
-</section>
+  <!-- WHAT WE DO -->
+  <section id="what">
+    <div class="section-inner">
+      <div class="what-grid">
+        <div>
+          <p class="section-label reveal">01 — What We Do</p>
+          <h2 class="reveal reveal-delay-1">The work that happens <em>before</em> the system runs.</h2>
+          <div class="what-intro reveal reveal-delay-2">
+            <p>Most data problems are discovered after the fact — in a meeting,
+            in a report, in a costly resolution. GIGO Data™ works upstream: on the
+            intake, the structure, and the governance frameworks that determine
+            whether a system's outputs can be trusted before they are acted upon.</p>
+            <br>
+            <p><strong>This is not data cleanup.</strong> This is data architecture for accountability — the design discipline
+            that sits between your organisation's questions and its systems' answers.</p>
+            <br>
+            <p>The work applies across AI governance, enterprise platforms, regulatory
+            compliance, and any environment where the cost of being confidently wrong is
+            one the organisation cannot afford.</p>
+          </div>
+        </div>
 
-<!-- ========================================================= -->
-<!--  CLOUDFLARE ANALYTICS                                      -->
-<!-- ========================================================= -->
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js"
-        data-cf-beacon='{"token": "d082788b0fb141fe976a6a41be449d98"}'>
-</script>
+        <div>
+          <ul class="services-list reveal reveal-delay-2">
+            <li class="service-item">
+              <span class="service-num">01</span>
+              <div>
+                <div class="service-name">AI Governance & Input Integrity</div>
+                <div class="service-desc">Establishing epistemic standards for AI systems — ensuring that what goes in can be traced, justified, and audited before outputs are treated as decisions.</div>
+              </div>
+            </li>
+            <li class="service-item">
+              <span class="service-num">02</span>
+              <div>
+                <div class="service-name">Data Quality Architecture</div>
+                <div class="service-desc">Designing validation frameworks that surface input failures before they propagate — not after the system has executed them at scale.</div>
+              </div>
+            </li>
+            <li class="service-item">
+              <span class="service-num">03</span>
+              <div>
+                <div class="service-name">Regulatory Readiness</div>
+                <div class="service-desc">Preparing organisations for GDPR, the EU AI Act, and evolving accountability requirements — translating regulatory intent into operational governance structures.</div>
+              </div>
+            </li>
+            <li class="service-item">
+              <span class="service-num">04</span>
+              <div>
+                <div class="service-name">CRM & Analytics Strategy</div>
+                <div class="service-desc">Building the data collection and structuring layer that makes enterprise platforms answerable — from architecture through to the questions leadership needs answered.</div>
+              </div>
+            </li>
+            <li class="service-item">
+              <span class="service-num">05</span>
+              <div>
+                <div class="service-name">Executive Advisory</div>
+                <div class="service-desc">Strategic counsel for product leaders, compliance officers, and legal teams navigating AI requirements — grounded in forty-five years of cross-domain systems experience.</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<!-- Hidden preload of OG image -->
-<img src="https://www.gigodata.com/opengraph/gigodata_og_preview.png"
-     alt="GIGO Data OG Image"
-     style="display:none">
+  <div class="section-divider"></div>
 
-<!-- redeploy trigger -->
+  <!-- THE PRINCIPLE -->
+  <section id="the-principle">
+    <div class="section-inner">
+      <div class="principle-layout">
+        <div class="reveal">
+          <div class="principle-mono">
+            <span class="strikethrough">Garbage</span> In,<br>
+            <span class="strikethrough">Garbage</span> Out.<br>
+            <br>
+            <span class="highlight">An old principle.</span><br>
+            <br>
+            The older it gets,<br>
+            the more precisely it<br>
+            describes what is<br>
+            <span class="highlight">happening now.</span>
+          </div>
+        </div>
+
+        <div class="principle-body reveal reveal-delay-2">
+          <p>
+            Coined in 1957. Confirmed on every ramp, trading floor,
+            enterprise platform, and AI deployment since.
+          </p>
+          <p>
+            In 1957, US Army Specialist <strong>William D. Mellin</strong> explained to a
+            syndicated newspaper that computers cannot think for themselves —
+            that sloppily programmed inputs inevitably lead to incorrect outputs.
+            The phrase he reached for was <em>Garbage In, Garbage Out.</em>
+          </p>
+          <p>
+            <strong>The principle has never failed.</strong> Systems have failed to apply it.
+            The failure mode is consistent: inputs are accepted without validation,
+            scaled without accountability, and the consequences accumulate in
+            the data until they surface somewhere expensive.
+          </p>
+          <p>
+            In the age of AI, the stakes are no longer operational.
+            They are reputational, regulatory, and consequential for the people
+            whose lives the systems govern.
+          </p>
+          <p>
+            <strong>Governance is not the audit that happens after the output.</strong>
+            It is the design discipline that determines whether the output
+            is trustworthy in the first place.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY IT MATTERS — DOMAINS -->
+  <section id="why">
+    <div class="section-inner">
+      <p class="section-label reveal">02 — The Pattern</p>
+      <h2 class="reveal reveal-delay-1">The same structural failure,<br><em>across four domains.</em></h2>
+
+      <div class="domain-grid">
+        <div class="domain-card reveal reveal-delay-1">
+          <div class="domain-year">1989 – 1997</div>
+          <div class="domain-name">Aviation</div>
+          <div class="domain-lesson">At an airline, input failures surface in real time — on the ramp, with an aircraft that needs to push back in six minutes. The system does not compensate for incorrect inputs. It executes them, faithfully, at speed.</div>
+        </div>
+        <div class="domain-card reveal reveal-delay-2">
+          <div class="domain-year">1997 – 1999</div>
+          <div class="domain-name">Financial Markets</div>
+          <div class="domain-lesson">The trading floor made invisible data expensive. The Deal Book — Customer Has / Customer Wants — was a human validation layer that sat before the machine ran. The bank's position is always derivable. The entry does not permit ambiguity.</div>
+        </div>
+        <div class="domain-card reveal reveal-delay-3">
+          <div class="domain-year">1999 – 2009</div>
+          <div class="domain-name">Apple · Consumer Platform</div>
+          <div class="domain-lesson">AntennaGate resolved in three days instead of six weeks. Not a speed story. A data quality story. Structured inputs, properly designed, made the system answerable. Back-purposed data would have produced noise at scale — and a six-week delay the company could not afford.</div>
+        </div>
+        <div class="domain-card reveal reveal-delay-4">
+          <div class="domain-year">Paris</div>
+          <div class="domain-name">European Governance</div>
+          <div class="domain-lesson">A different cultural contract: opacity requires justification, not the other way around. What GDPR would later formalise was already the standard — institutional responsibility for outcomes, and the right to understand what produced them.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- THE STANDARD - FOUR QUESTIONS -->
+  <section id="standard">
+    <div class="section-inner">
+      <div class="questions-header">
+        <div>
+          <p class="section-label reveal">03 — The Intake Standard</p>
+          <h2 class="reveal reveal-delay-1">Four questions. Every<br><em>consequential system.</em></h2>
+        </div>
+        <div class="reveal reveal-delay-2">
+          <p>These are not philosophical questions. They are operational governance standards for any system that shapes access, opportunity, or consequence for real people. A system that cannot answer them has no business making such decisions.</p>
+        </div>
+      </div>
+
+      <ol class="questions-list">
+        <li class="question-item reveal">
+          <div></div>
+          <div class="question-text">What went into this system at the beginning — and how was it selected?</div>
+        </li>
+        <li class="question-item reveal reveal-delay-1">
+          <div></div>
+          <div class="question-text">Who decided what counted as a valid input, and on what basis?</div>
+        </li>
+        <li class="question-item reveal reveal-delay-2">
+          <div></div>
+          <div class="question-text">What happens when the input conditions change — and does the system have any mechanism for knowing that they have?</div>
+        </li>
+        <li class="question-item reveal reveal-delay-3">
+          <div></div>
+          <div class="question-text">If this system is wrong, what would that look like — and would anyone be able to see it in time?</div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- FOUNDER -->
+  <section id="founder">
+    <div class="section-inner">
+      <div class="founder-layout">
+        <div>
+          <p class="section-label reveal">04 — Founder</p>
+          <blockquote class="founder-quote reveal reveal-delay-1">
+            "What I was doing, during the years between the observations and this
+            series, was stress-testing the frame — carrying it across different
+            conditions, continents, domains, and disciplines — and asking whether it held."
+          </blockquote>
+          <div class="founder-name reveal reveal-delay-2">Adrian Wise Santos</div>
+          <div class="founder-title reveal reveal-delay-2">Founder, GIGO Data™ &nbsp;·&nbsp; Principal, Product & Data Platforms &nbsp;·&nbsp; Ex-Apple (10 yrs)</div>
+
+          <div class="career-track reveal reveal-delay-3">
+            <div class="career-item">
+              <div class="career-year">1981</div>
+              <div class="career-place">Detroit Country Day School <span>— Student Lab Monitor, first data governance role</span></div>
+            </div>
+            <div class="career-item">
+              <div class="career-year">1989 – 1997</div>
+              <div class="career-place">America West Airlines <span>— SJC · SAT · EWR · BFL · SFO</span></div>
+            </div>
+            <div class="career-item">
+              <div class="career-year">1997 – 1999</div>
+              <div class="career-place">Wells Fargo Bank N.A. <span>— Foreign Exchange Sales & Trading</span></div>
+            </div>
+            <div class="career-item">
+              <div class="career-year">1999 – 2009</div>
+              <div class="career-place">Apple Computer, Inc. <span>— Senior Product Analyst, AppleCare</span></div>
+            </div>
+            <div class="career-item">
+              <div class="career-year">Paris</div>
+              <div class="career-place">ESMOD <span>— Fashion Design · Cross-border governance exposure</span></div>
+            </div>
+            <div class="career-item">
+              <div class="career-year">2012 –</div>
+              <div class="career-place">GIGO Data™ <span>— Founded. San Francisco, CA</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="founder-bio reveal reveal-delay-2">
+          <p>
+            The lens came from forty-five years of watching the same structural failure
+            repeat across aviation, financial markets, consumer technology, and
+            European governance — and asking, in each domain, the same question:
+            <strong>how do you know that what went in was fit for purpose?</strong>
+          </p>
+          <p>
+            At America West, bad inputs surfaced on the ramp, in real time, with an
+            aircraft that needed to push back in six minutes. At Wells Fargo, the same
+            failure was denominated in dollars, francs, and deutschmarks. At Apple,
+            the AntennaGate resolution in three days instead of six weeks was not
+            a speed story. It was a data quality story.
+          </p>
+          <p>
+            In Paris, a different regulatory culture asked the question at a
+            systemic level: <strong>the state, the institution, the organisation — these owed
+            the individual legibility.</strong> Opacity required justification.
+            What GDPR would later formalise was already the cultural contract.
+          </p>
+          <p>
+            GIGO Data™ was founded on the conviction that this standard — built across
+            enough domains, over enough time, to be stated with precision — belongs
+            in the room where AI systems are designed, deployed, and governed.
+          </p>
+          <p style="margin-top: 2rem;">
+            <a href="https://www.linkedin.com/in/adriansantos/" target="_blank" style="font-family: 'IBM Plex Mono', monospace; font-size: 0.65rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold); text-decoration: none; border-bottom: 1px solid var(--gold-dim); padding-bottom: 2px;">Read the "I Have a Voice" Series on LinkedIn →</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- VOICE / WRITING -->
+  <section id="voice">
+    <div class="section-inner">
+      <div class="voice-header">
+        <div>
+          <p class="section-label reveal">05 — I Have a Voice</p>
+          <h2 class="reveal reveal-delay-1">The publishing<br><em>series.</em></h2>
+        </div>
+        <div class="voice-intro reveal reveal-delay-2">
+          A twice-monthly series on epistemology, data governance, and what it means
+          to build systems that can actually answer for themselves. Not hype. Not alarm.
+          The kind of calm that comes from having seen the same problem resolve itself
+          the same way, across enough contexts and enough years.
+        </div>
+      </div>
+
+      <ul class="articles-list">
+        <li class="article-item reveal">
+          <a href="https://www.linkedin.com/pulse/i-have-voice-why-im-publishing-now-matters-adrian-wise-santos-re2qc/" target="_blank" class="article-link">
+            <span class="article-num">001</span>
+            <span class="article-title">I Have a Voice — Why I'm Publishing Now (and Why It Matters)</span>
+            <span class="article-date">Feb 01, 2026 <span class="article-arrow">→</span></span>
+          </a>
+        </li>
+        <li class="article-item reveal reveal-delay-1">
+          <a href="https://www.linkedin.com/pulse/i-have-voice-how-tell-what-systems-actually-know-adrian-wise-santos-m5zic/" target="_blank" class="article-link">
+            <span class="article-num">002</span>
+            <span class="article-title">I Have a Voice — How to Tell What Systems Actually Know</span>
+            <span class="article-date">Feb 15, 2026 <span class="article-arrow">→</span></span>
+          </a>
+        </li>
+        <li class="article-item reveal reveal-delay-2">
+          <a href="https://www.linkedin.com/pulse/draft/preview/7428426679829585920/" target="_blank" class="article-link">
+            <span class="article-num">003</span>
+            <span class="article-title">The Voice Behind the Voice: Systems Thinking, Data Integrity & AI Governance</span>
+            <span class="article-date">Mar 01, 2026 <span class="article-arrow">→</span></span>
+          </a>
+        </li>
+        <li class="article-item reveal reveal-delay-3">
+          <a href="#" class="article-link" style="opacity: 0.4; pointer-events: none;">
+            <span class="article-num">004</span>
+            <span class="article-title">Coming Next — GIGO Data™: The Introduction</span>
+            <span class="article-date">Mar 15, 2026</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-inner">
+      <div class="contact-grid">
+        <div>
+          <p class="section-label reveal">06 — Contact</p>
+          <h2 class="contact-statement reveal reveal-delay-1">
+            The conversation that happens<br>
+            <em>before</em> the system runs.
+          </h2>
+          <p class="contact-body reveal reveal-delay-2">
+            If your organisation is navigating AI governance, data quality accountability,
+            or regulatory compliance — and needs a perspective built from forty-five years
+            of watching what breaks — this is where that conversation begins.
+          </p>
+          <p style="font-family: 'IBM Plex Mono', monospace; font-size: 0.65rem; letter-spacing: 0.15em; color: var(--gold-dim); text-transform: uppercase;" class="reveal reveal-delay-3">
+            San Francisco, CA &nbsp;·&nbsp; gigodata.com
+          </p>
+        </div>
+
+        <form class="contact-form reveal reveal-delay-2" action="https://formspree.io/f/xjgedowp" method="POST">
+          <div class="form-field">
+            <label for="contact-name">Your Name</label>
+            <input id="contact-name" type="text" name="name" placeholder="Full name">
+          </div>
+          <div class="form-field">
+            <label for="contact-org">Organisation</label>
+            <input id="contact-org" type="text" name="organisation" placeholder="Company or institution">
+          </div>
+          <div class="form-field">
+            <label for="contact-email">Email</label>
+            <input id="contact-email" type="email" name="email" placeholder="your@email.com">
+          </div>
+          <div class="form-field">
+            <label for="contact-message">What's the question?</label>
+            <textarea id="contact-message" name="message" rows="5" placeholder="Describe the system, the problem, or the question you're trying to answer."></textarea>
+          </div>
+          <div class="form-submit">
+            <button class="btn-primary" type="submit">Send</button>
+            <span style="font-family: 'IBM Plex Mono', monospace; font-size: 0.6rem; letter-spacing: 0.12em; color: var(--light-gray);">We read every message.</span>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-logo">GIGO Data™</div>
+      <div class="footer-copy">© 2026 GIGO Data, Inc. · San Francisco, CA · Founded 2012</div>
+      <ul class="footer-links">
+        <li><a href="https://www.linkedin.com/company/gigo-data-consulting" target="_blank">LinkedIn</a></li>
+        <li><a href="#voice">Writing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </footer>
+  </section>
+
+  <script>
+    // Scroll reveal
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+    reveals.forEach(el => observer.observe(el));
+
+    // Formspree AJAX submission
+    const contactForm = document.querySelector('.contact-form');
+    if (contactForm) {
+      contactForm.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        const btn = contactForm.querySelector('button[type="submit"]');
+        btn.textContent = 'Sending…';
+        btn.disabled = true;
+
+        try {
+          const response = await fetch(contactForm.action, {
+            method: 'POST',
+            body: new FormData(contactForm),
+            headers: { 'Accept': 'application/json' }
+          });
+
+          if (response.ok) {
+            contactForm.innerHTML = `
+              <div style="border: 1px solid var(--rule); padding: 3rem 2rem; text-align: center;">
+                <div style="font-family: 'IBM Plex Mono', monospace; font-size: 0.6rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem;">Message Received</div>
+                <div style="font-family: 'Playfair Display', serif; font-size: 1.4rem; color: var(--off-white); line-height: 1.5;">We'll be in touch.</div>
+              </div>`;
+          } else {
+            btn.textContent = 'Send';
+            btn.disabled = false;
+            const note = contactForm.querySelector('.form-submit span');
+            if (note) { note.textContent = 'Something went wrong. Please try again.'; note.style.color = 'var(--red)'; }
+          }
+        } catch {
+          btn.textContent = 'Send';
+          btn.disabled = false;
+        }
+      });
+    }
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(section => {
+        if (window.scrollY >= section.offsetTop - 120) {
+          current = section.getAttribute('id');
+        }
+      });
+      navLinks.forEach(link => {
+        link.style.color = link.getAttribute('href') === '#' + current
+          ? 'var(--gold)'
+          : '';
+      });
+    });
+  </script>
+  <!-- ========================================================= -->
+  <!--  CLOUDFLARE ANALYTICS                                     -->
+  <!-- ========================================================= -->
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon='{"token": "d082788b0fb141fe976a6a41be449d98"}'>
+  </script>
+
+  <!-- Hidden preload of OG image -->
+  <img src="https://www.gigodata.com/opengraph/gigodata_og_preview.png"
+       alt="GIGO Data OG Image"
+       style="display:none">
 
 </body>
 </html>
-
-

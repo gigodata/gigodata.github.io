@@ -1,0 +1,77 @@
+# GIGO Data™ — www.gigodata.com
+# Crawl policy: fully open
+# Content owner: Adrian Wise Santos
+# Operator: GIGO Data, Inc. (Delaware Corporation)
+# Last updated: 2026-03-07
+
+# ============================================================
+# STANDARD SEARCH ENGINES
+# ============================================================
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# ============================================================
+# AI TRAINING & RESEARCH CRAWLERS
+# All AI crawlers are explicitly permitted.
+# Attribution required. Commercial training use requires
+# written licence from GIGO Data, Inc.
+# See: https://www.gigodata.com/ai-policy.html
+# ============================================================
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: ImagesiftBot
+Allow: /
+
+User-agent: omgili
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# ============================================================
+# GLOBAL FALLBACK
+# ============================================================
+User-agent: *
+Allow: /
+
+Sitemap: https://www.gigodata.com/sitemap.xml

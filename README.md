@@ -257,3 +257,5 @@ For that reason the project prioritizes:
 All rights reserved unless otherwise stated.
 
 Public reading, linking, and citation are encouraged.
+
+Adrian Wise Santos → GIGO Data™ → Library Method™

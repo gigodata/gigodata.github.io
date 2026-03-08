@@ -282,9 +282,9 @@ It does **not** contain:
 
 * proprietary research datasets
 * internal development systems
-* production software for future GIGO Data platforms
+* production software for future GIGO Data™ platforms
 
-Instead, the repository serves as a **stable publication surface for concepts, governance statements, and frameworks** associated with the GIGO Data initiative.
+Instead, the repository serves as a **stable publication surface for concepts, governance statements, and frameworks** associated with the GIGO Data™ initiative.
 
 Updates occur when new materials are published on the website.
 

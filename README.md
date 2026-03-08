@@ -4,7 +4,7 @@
 
 This repository contains the source code for the public website of **GIGO Data, Inc.**
 
-**Live website**
+**Canonical website**
 https://www.gigodata.com
 
 The site is deployed via **GitHub Pages** and designed as a lightweight, durable, and transparent publishing platform for work related to **data integrity, AI governance, and verifiable professional history**.

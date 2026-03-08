@@ -260,7 +260,7 @@ Adrian Wise Santos
 
 # Repository Philosophy
 
-This repository reflects the philosophy behind GIGO Data:
+This repository reflects the philosophy behind GIGO Data™:
 
 > Systems are only as reliable as the information they contain.
 

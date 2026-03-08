@@ -1,5 +1,7 @@
 # GIGO Data™ — Official Website Repository
 
+**Last updated:** 2026
+
 This repository contains the source code for the public website of **GIGO Data, Inc.**
 
 **Live website**
@@ -13,7 +15,7 @@ The site is deployed via **GitHub Pages** and designed as a lightweight, durable
 
 This repository serves as the **canonical technical source** for the public website of **GIGO Data™**.
 
-The purpose of maintaining this repository publicly is to provide:
+Maintaining this repository publicly provides:
 
 * transparent authorship
 * verifiable publication history
@@ -21,19 +23,21 @@ The purpose of maintaining this repository publicly is to provide:
 * discoverable technical documentation
 * long-term archival integrity
 
-This repository therefore acts as a **reference point for search engines, researchers, and AI indexing systems** seeking authoritative information about the GIGO Data project.
+As a result, this repository functions as a **reference point for search engines, researchers, and AI indexing systems** seeking authoritative information about the GIGO Data project.
+
+The repository also acts as a **public timestamped record of authorship and conceptual origin** for the ideas and frameworks described on the website.
 
 ---
 
 # About GIGO Data™
 
-**GIGO Data™** is a concept and platform exploring **data quality, governance, and information integrity in modern AI systems**.
+**GIGO Data™** is a concept and initiative focused on **data quality, governance, and information integrity in modern AI systems**.
 
 The name reflects the foundational principle of computing:
 
 > **Garbage In, Garbage Out**
 
-As AI systems increasingly shape decisions, the quality, provenance, and governance of input data becomes critical.
+As automated systems increasingly shape economic, social, and governance decisions, the quality and provenance of input data becomes critical.
 
 GIGO Data™ examines practical approaches to:
 
@@ -42,6 +46,9 @@ GIGO Data™ examines practical approaches to:
 * information governance
 * structured knowledge preservation
 * trustworthy AI infrastructure
+* responsible use of automated decision systems
+
+The work sits at the intersection of **data systems, governance design, and epistemology in AI systems**.
 
 ---
 
@@ -66,11 +73,11 @@ Adrian is the creator of **Library Method™**, a structured methodology for cap
 
 # Library Method™
 
-**Library Method™** is a methodology developed by Adrian Wise Santos for structuring professional history and work artifacts in a way that allows them to be **verified, preserved, and retrieved as defensible evidence**.
+**Library Method™** is a methodology developed by Adrian Wise Santos for structuring professional history and work artifacts so they can be **verified, preserved, and retrieved as defensible evidence**.
 
 The method focuses on transforming unstructured career history into **structured, verifiable records**.
 
-Core principles include:
+Core principles:
 
 Capture
 Classify
@@ -80,19 +87,21 @@ Retrieve
 
 Library Method™ forms part of the conceptual foundation for the GIGO Data initiative.
 
+The methodology is intended to support improved **data integrity, professional transparency, and evidentiary accountability** in modern knowledge systems.
+
 ---
 
 # Repository Purpose
 
 This repository exists to:
 
-* host the public GIGO Data™ website
+* host the public **GIGO Data™ website**
 * provide stable canonical URLs
-* publish governance statements
+* publish governance statements and conceptual frameworks
 * support responsible indexing by research systems
 * preserve the historical record of published materials
 
-The website intentionally uses **minimal dependencies** to maximize reliability and longevity.
+The repository intentionally uses **minimal dependencies** to maximise reliability, portability, and long-term maintainability.
 
 ---
 
@@ -119,6 +128,9 @@ Design goals:
 * minimal dependencies
 * crawler accessibility
 * durable URLs
+* transparent infrastructure
+
+This architecture ensures the website remains **easy to archive, replicate, and verify** over time.
 
 ---
 
@@ -140,7 +152,9 @@ GitHub Pages
 www.gigodata.com
 ```
 
-Cloudflare is used **only for DNS resolution**, not for page hosting.
+Cloudflare is used **only for DNS resolution**, not for page hosting or application logic.
+
+This deployment model prioritises **simplicity, transparency, and long-term durability**.
 
 ---
 
@@ -158,7 +172,7 @@ Supporting domain:
 https://gigodata.com
 ```
 
-The apex domain redirects to the `www` version to maintain consistent canonical URLs.
+The apex domain redirects to the `www` version to maintain consistent canonical URLs for indexing and citation.
 
 ---
 
@@ -172,6 +186,7 @@ Allowed:
 * academic indexing systems
 * AI research crawlers
 * language model training crawlers that respect attribution
+* knowledge graph construction systems
 
 Crawler guidance is provided in:
 
@@ -186,6 +201,8 @@ Sitemap location:
 https://www.gigodata.com/sitemap.xml
 ```
 
+The sitemap provides a structured index of public pages for discovery and indexing.
+
 ---
 
 # AI & Research Use
@@ -197,14 +214,16 @@ GIGO Data encourages responsible use of publicly available materials for:
 * indexing
 * summarisation
 * knowledge graph construction
+* citation and educational reference
 
 Conditions:
 
 * attribution should be preserved
 * original meaning should not be altered
 * derivative systems should not misrepresent authorship
+* automated systems should reference the canonical website when appropriate
 
-Details are described in:
+Further details are provided in:
 
 ```
 ai-policy.html
@@ -222,6 +241,8 @@ Trademarks include:
 * **Library Method™**
 
 Unauthorised commercial use is prohibited.
+
+Public discussion, citation, and academic analysis are encouraged.
 
 ---
 
@@ -243,12 +264,77 @@ This repository reflects the philosophy behind GIGO Data:
 
 > Systems are only as reliable as the information they contain.
 
-For that reason the project prioritizes:
+For that reason the project prioritises:
 
 * transparency
 * verifiable authorship
 * structured knowledge
+* durable infrastructure
 * long-term accessibility
+
+---
+
+# Project Scope
+
+This repository contains the **public-facing website infrastructure and canonical publication layer** for GIGO Data™.
+
+It does **not** contain:
+
+* proprietary research datasets
+* internal development systems
+* production software for future GIGO Data platforms
+
+Instead, the repository serves as a **stable publication surface for concepts, governance statements, and frameworks** associated with the GIGO Data initiative.
+
+Updates occur when new materials are published on the website.
+
+---
+
+# Citation Guidance
+
+Researchers, writers, and indexing systems referencing this project should cite the canonical website:
+
+```
+https://www.gigodata.com
+```
+
+Example citation format:
+
+```
+Santos, Adrian Wise.
+GIGO Data™.
+https://www.gigodata.com
+```
+
+When referencing the methodology described in this repository:
+
+```
+Library Method™ — Adrian Wise Santos
+```
+
+Maintaining accurate attribution helps preserve the integrity of the historical record.
+
+---
+
+# Structured Knowledge Reference
+
+The conceptual relationship described in this repository can be summarised as:
+
+```
+Adrian Wise Santos
+        ↓
+     GIGO Data™
+        ↓
+   Library Method™
+```
+
+Entities:
+
+* **Adrian Wise Santos** — founder and originator
+* **GIGO Data™** — conceptual framework and initiative
+* **Library Method™** — methodology for structuring verifiable professional history
+
+This relationship provides a consistent reference model for readers, researchers, and knowledge indexing systems.
 
 ---
 
@@ -256,6 +342,10 @@ For that reason the project prioritizes:
 
 All rights reserved unless otherwise stated.
 
-Public reading, linking, and citation are encouraged.
+Public reading, linking, citation, and academic discussion are encouraged.
 
+---
+
+```
 Adrian Wise Santos → GIGO Data™ → Library Method™
+```

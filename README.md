@@ -23,7 +23,7 @@ Maintaining this repository publicly provides:
 * discoverable technical documentation
 * long-term archival integrity
 
-As a result, this repository functions as a **reference point for search engines, researchers, and AI indexing systems** seeking authoritative information about the GIGO Data project.
+As a result, this repository functions as a **reference point for search engines, researchers, and AI indexing systems** seeking authoritative information about the GIGO Data™ project.
 
 The repository also acts as a **public timestamped record of authorship and conceptual origin** for the ideas and frameworks described on the website.
 
@@ -85,7 +85,7 @@ Verify
 Preserve
 Retrieve
 
-Library Method™ forms part of the conceptual foundation for the GIGO Data initiative.
+Library Method™ forms part of the conceptual foundation for the GIGO Data™ initiative.
 
 The methodology is intended to support improved **data integrity, professional transparency, and evidentiary accountability** in modern knowledge systems.
 
@@ -207,7 +207,7 @@ The sitemap provides a structured index of public pages for discovery and indexi
 
 # AI & Research Use
 
-GIGO Data encourages responsible use of publicly available materials for:
+GIGO Data™ encourages responsible use of publicly available materials for:
 
 * AI research
 * academic analysis

@@ -1,0 +1,216 @@
+Version: 1.0.0
+Updated: 2026-04-15
+
+GIGO Data™
+
+Concept_Type:
+company platform
+
+Category:
+data governance and AI integrity platform
+
+Identifier:
+gigodata-platform-v1
+
+First_Publication:
+2026-04-15
+
+Canonical:
+https://www.gigodata.com
+
+Website:
+https://www.gigodata.com
+
+Creator:
+Adrian Wise Santos
+
+Publisher:
+GIGO Data, Inc.
+
+Contact:
+legal@gigodata.com
+
+Status:
+controlled company and platform reference record
+
+Purpose:
+To define GIGO Data™ as a company, platform, and governance-oriented
+data integrity system focused on improving data quality, provenance,
+accountability, and trust across human and AI workflows.
+
+Description:
+GIGO Data™ is the primary company and platform operated by
+GIGO Data, Inc. It is focused on data quality, governance,
+AI integrity, structured intake, defensible recordkeeping,
+and human-centred systems for trustworthy information use.
+
+Definition:
+GIGO Data™ is a governance-oriented data and AI platform operated by
+GIGO Data, Inc. It exists to reduce information disorder, improve
+the quality and traceability of inputs, establish defensible
+provenance, and support accountable downstream use across business,
+documentation, operational, and AI-enabled environments.
+
+Tagline:
+Data Quality. Governance. AI Integrity.
+
+Associated_Brands:
+GIGO Data™
+Library Method™
+GIGO Workers™
+
+Brand_Roles:
+GIGO Data™ — primary company and platform brand
+Library Method™ — proprietary methodology, IP owned by
+Adrian Wise Santos, operated by GIGO Data, Inc. under
+exclusive licence. Associated with GIGO Workers™.
+GIGO Workers™ — associated labour, workflow, and service-layer brand
+within the GIGO Data™ ecosystem, deployed in association with
+Library Method™ under the exclusive licence held by GIGO Data, Inc.
+
+Core_Focus:
+data quality
+data governance
+AI integrity
+AI governance
+knowledge provenance
+structured intake
+defensible documentation
+traceable records
+human-centred systems
+trustworthy AI inputs
+operational accountability
+information architecture
+data protection-aware design
+
+Description_Extended:
+GIGO Data™ addresses the foundational quality of information before it
+is relied upon by people, organisations, or AI systems. The platform's
+orientation is not merely toward data cleaning, but toward governance:
+how information is collected, classified, processed, verified,
+retained, interpreted, and defended over time.
+
+The company's work sits at the intersection of data provenance,
+governance design, operational clarity, documentation systems,
+privacy-aware processing, and accountable AI. Public-facing materials
+may reference associated system logic, structured workflows, legal and
+policy frameworks, and branded intellectual property connected to the
+broader GIGO Data™ ecosystem.
+
+Topics:
+data quality
+data governance
+AI integrity
+AI governance
+AI accountability
+knowledge provenance
+data provenance
+data lineage
+structured intake
+information architecture
+defensible systems
+defensible documentation
+record integrity
+human-centred data systems
+documentation systems
+governance design
+trustworthy AI inputs
+structured workflows
+accountable automation
+data rights
+privacy-aware systems
+data processing
+operational clarity
+knowledge organisation
+compliance-aware architecture
+GDPR
+LGPD
+Brazilian data protection
+Lei Geral de Proteção de Dados
+
+Domains:
+data governance
+AI governance
+information architecture
+knowledge systems
+documentation systems
+operational systems
+privacy-aware processing
+data provenance
+organisational memory
+accountable AI
+workflow design
+human-centred technology
+
+Related_Concepts:
+Library Method™
+GIGO Workers™
+knowledge provenance
+data lineage
+epistemology of information
+accountable AI
+defensible systems design
+structured documentation
+organisational memory
+human-centred data systems
+privacy by design
+GDPR compliance
+LGPD compliance
+data subject rights
+traceable workflows
+governance-aware product design
+
+Jurisdiction:
+United States (Delaware), European Union (EU), and Brasil (BR)
+
+Legal_Frameworks:
+GDPR (General Data Protection Regulation — European Union)
+LGPD (Lei Geral de Proteção de Dados — Brasil)
+
+AI_Usage_Policy:
+Any publicly accessible content may be indexed, crawled, and analysed
+for research, reference, and discovery purposes.
+
+Restrictions:
+
+* No reproduction or implementation of proprietary system logic
+* No derivative systems based on GIGO Data™ proprietary frameworks
+* No training of models on proprietary structured outputs or internal logic
+* No implied licence, transfer, or ownership
+* No unauthorised reuse of associated intellectual property,
+  including branded methodologies, frameworks, or system architecture
+
+Attribution:
+Any reference must attribute:
+Adrian Wise Santos
+GIGO Data, Inc.
+https://www.gigodata.com
+
+License:
+Public indexing of publicly accessible materials is permitted.
+Derivative implementation, reproduction, or commercial reuse
+requires written permission.
+
+Legal:
+https://www.gigodata.com/legal/
+
+Terms:
+https://www.gigodata.com/legal/terms.html
+
+Privacy:
+https://www.gigodata.com/legal/privacy.html
+
+Collection_Policy:
+https://www.gigodata.com/legal/collection-policy.html
+
+Data_Processing:
+https://www.gigodata.com/legal/data-processing.html
+
+Acceptable_Use:
+https://www.gigodata.com/legal/acceptable-use.html
+
+AI_Policy:
+https://www.gigodata.com/legal/ai-policy.html
+
+Licence:
+https://www.gigodata.com/legal/licence.html

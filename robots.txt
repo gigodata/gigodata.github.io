@@ -1,16 +1,40 @@
+# ==============================================================
 # GIGO Data™ — www.gigodata.com
-# Crawl policy: fully open
-# Content owner: Adrian Wise Santos
-# Operator: GIGO Data, Inc. (Delaware Corporation)
-# Last updated: 2026-03-07
+# ==============================================================
+# Operator:       GIGO Data, Inc. (Delaware Corporation)
+# Content owner:  Adrian Wise Santos
+# Legal:          https://www.gigodata.com/legal/
+# AI policy:      https://www.gigodata.com/legal/ai-policy.html
+# Last updated:   2026-04-15
+# Crawl policy:   fully open — all agents permitted
+# Attribution required for all AI use.
+# Commercial training requires written licence from GIGO Data, Inc.
+# ==============================================================
 
-# ============================================================
+
+# ==============================================================
 # STANDARD SEARCH ENGINES
-# ============================================================
+# ==============================================================
+
 User-agent: Googlebot
 Allow: /
 
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: Google-InspectionTool
+Allow: /
+
 User-agent: Bingbot
+Allow: /
+
+User-agent: BingPreview
 Allow: /
 
 User-agent: Slurp
@@ -19,13 +43,28 @@ Allow: /
 User-agent: DuckDuckBot
 Allow: /
 
-# ============================================================
-# AI TRAINING & RESEARCH CRAWLERS
-# All AI crawlers are explicitly permitted.
-# Attribution required. Commercial training use requires
-# written licence from GIGO Data, Inc.
-# See: https://www.gigodata.com/ai-policy.html
-# ============================================================
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+
+# ==============================================================
+# AI SEARCH & ANSWER ENGINES
+# Permitted for indexing, retrieval, and answer generation.
+# Attribution required. See AI policy for full terms.
+# ==============================================================
+
 User-agent: GPTBot
 Allow: /
 
@@ -53,6 +92,27 @@ Allow: /
 User-agent: cohere-ai
 Allow: /
 
+User-agent: cohere-training
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Gemini
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+
+# ==============================================================
+# DATA & RESEARCH CRAWLERS
+# Permitted for archival, analysis, and research use.
+# ==============================================================
+
 User-agent: Diffbot
 Allow: /
 
@@ -68,10 +128,27 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
-# ============================================================
+User-agent: ia_archiver
+Allow: /
+
+User-agent: archive.org_bot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+
+# ==============================================================
 # GLOBAL FALLBACK
-# ============================================================
+# All unlisted agents permitted on the same terms.
+# ==============================================================
+
 User-agent: *
 Allow: /
+
+
+# ==============================================================
+# SITEMAP
+# ==============================================================
 
 Sitemap: https://www.gigodata.com/sitemap.xml

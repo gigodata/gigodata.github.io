@@ -1,0 +1,62 @@
+/* GIGO Data™ Legal Design System */
+
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background: #0c0b09;
+  color: #f4efe4;
+  line-height: 1.7;
+}
+
+a {
+  color: #c9a84c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header, footer {
+  padding: 20px;
+  border-bottom: 1px solid rgba(201,168,76,0.2);
+}
+
+footer {
+  border-top: 1px solid rgba(201,168,76,0.2);
+  border-bottom: none;
+  margin-top: 60px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+  letter-spacing: 0.04em;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+.card {
+  border: 1px solid rgba(201,168,76,0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+  background: rgba(255,255,255,0.02);
+}
+
+.domain-list {
+  font-family: 'DM Mono', 'Courier New', monospace;
+  font-size: 0.85rem;
+  line-height: 2;
+  color: #c9a84c;
+}

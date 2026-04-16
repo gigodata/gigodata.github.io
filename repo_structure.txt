@@ -1,0 +1,62 @@
+gigodata.github.io
+├── assets/
+│   ├── brand/
+│   ├── fonts/
+│   ├── icons/
+│   │   ├── favicon.ico
+│   │   ├── gigo-icon-16.png
+│   │   ├── gigo-icon-32.png
+│   │   ├── gigo-icon-64.png
+│   │   ├── gigo-icon-96.png
+│   │   ├── gigo-icon-128.png
+│   │   ├── gigo-icon-180.png
+│   │   ├── gigo-icon-192.png
+│   │   └── gigo-icon-512.png
+│   ├── images/
+│   └── media/
+├── css/
+├── en/
+│   ├── metadata/
+│   ├── opengraph/
+│   └── pages/
+├── fr/
+│   ├── metadata/
+│   ├── opengraph/
+│   └── pages/
+├── hr/
+│   ├── metadata/
+│   ├── opengraph/
+│   └── pages/
+├── js/
+├── legal/
+│   ├── acceptable-use.html
+│   ├── ai-policy.html
+│   ├── collection-policy.html
+│   ├── data-processing.html
+│   ├── index.html
+│   ├── legal.css
+│   ├── licence.html
+│   ├── privacy.html
+│   └── terms.html
+├── metadata/
+├── opengraph/
+│   └── gigodata_og_preview.png
+├── pt-br/
+│   ├── metadata/
+│   ├── opengraph/
+│   └── pages/
+├── CNAME
+├── favicon.ico
+├── GIGO-DATA.md
+├── index.html
+├── LICENSE
+├── llms.txt
+├── README.md
+├── robots.txt
+└── sitemap.xml
+
+---
+Repository:  gigodata.github.io
+Site:        https://www.gigodata.com
+Generated:   2026-04-15
+Branch:      main

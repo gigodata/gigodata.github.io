@@ -1,0 +1,72 @@
+gigodata.github.io — dated structure
+Generated: 2026-04-15
+Branch: main
+Site: https://www.gigodata.com
+
+────────────────────────────────────────────────────────────
+FILE / FOLDER                              DATE          NOTE
+────────────────────────────────────────────────────────────
+assets/                                    2026-04-15    Phase 1 asset scaffold
+  brand/                                   2026-04-15    empty scaffold
+  fonts/                                   2026-04-15    empty scaffold
+  icons/                                   2026-04-15    migrated from resources/
+    favicon.ico                            2025-05-11
+    gigo-icon-16.png                       2025-05-11
+    gigo-icon-32.png                       2025-05-11
+    gigo-icon-64.png                       2025-05-11
+    gigo-icon-96.png                       2025-05-11
+    gigo-icon-128.png                      2025-05-11
+    gigo-icon-180.png                      2025-05-11
+    gigo-icon-192.png                      2025-05-11
+    gigo-icon-512.png                      2025-05-11
+  images/                                  2026-04-15    empty scaffold
+  media/                                   2026-04-15    empty scaffold
+css/                                       2026-04-15    empty scaffold
+en/                                        2026-04-15    locale scaffold
+  metadata/                                2026-04-15    empty scaffold
+  opengraph/                               2026-04-15    empty scaffold
+  pages/                                   2026-04-15    empty scaffold
+fr/                                        2026-04-15    locale scaffold
+  metadata/                                2026-04-15    empty scaffold
+  opengraph/                               2026-04-15    empty scaffold
+  pages/                                   2026-04-15    empty scaffold
+hr/                                        2026-04-15    locale scaffold
+  metadata/                                2026-04-15    empty scaffold
+  opengraph/                               2026-04-15    empty scaffold
+  pages/                                   2026-04-15    empty scaffold
+js/                                        2026-04-15    empty scaffold
+legal/                                     2026-04-15    full legal suite — live
+  acceptable-use.html                      2026-04-15
+  ai-policy.html                           2026-04-15
+  collection-policy.html                   2026-04-15
+  data-processing.html                     2026-04-15
+  index.html                               2026-04-15
+  legal.css                                2026-04-15
+  licence.html                             2026-04-15
+  privacy.html                             2026-04-15
+  terms.html                               2026-04-15
+metadata/                                  2026-04-15    empty scaffold
+opengraph/                                 2025-11-20    root Open Graph asset
+  gigodata_og_preview.png                  2025-11-20
+pt-br/                                     2026-04-15    locale scaffold (renamed from pt/)
+  metadata/                                2026-04-15    empty scaffold
+  opengraph/                               2026-04-15    empty scaffold
+  pages/                                   2026-04-15    empty scaffold
+CNAME                                      2025-11-20    gigodata.com
+favicon.ico                                2025-05-11
+GIGO-DATA.md                               2026-04-15    company definition + IP chain
+index.html                                 2026-03-15    56 KB — Phase 2 CSS extraction pending
+LICENSE                                    2026-04-15    GIGO Data™ proprietary licence
+llms.txt                                   2026-04-15    AI / LLM identity declaration
+README.md                                  2026-04-15    architecture + IP chain + domain portfolio
+robots.txt                                 2026-04-15    enterprise crawl policy
+sitemap.xml                                2026-04-15    9 URLs — homepage + legal suite
+
+────────────────────────────────────────────────────────────
+PHASE STATUS
+────────────────────────────────────────────────────────────
+Phase 1 — Structure         ✅ Complete (2026-04-15)
+Phase 2 — Homepage          ⏳ Pending — extract inline CSS; wire locale routes
+Phase 3 — Legal i18n        ⏳ Pending — add language notice; control translations
+Phase 4 — Discovery         ⏳ Pending — build locale sitemap, metadata, and OG assets
+────────────────────────────────────────────────────────────

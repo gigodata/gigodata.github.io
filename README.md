@@ -168,6 +168,10 @@ GIGO Data, Inc. operates the following registered domains, all routing to the pr
 ├── metadata/
 ├── opengraph/
 │   └── gigodata_og_preview.png
+├── GIGO-DATA.md
+├── LICENSE
+├── repo_structure.txt
+├── repo_structure_dated.txt
 └── README.md
 ```
 

@@ -188,6 +188,8 @@ All domains listed below are operated by GIGO Data, Inc. unless otherwise noted.
 | buygigo.com | Commerce | Commerce |
 | autonomygap.com | Concept | Earned by Article 006 |
 | faithfullyatscale.com | Concept | Earned by Article 006 |
+| liabilityatscale.com | Concept | Earned by Article 006 |
+| epistemicfailure.com | Concept | Earned by Article 006 |
 | librarymethod.com | Associated (licensed) | Library Method™ canonical site |
 
 ---
@@ -195,7 +197,7 @@ All domains listed below are operated by GIGO Data, Inc. unless otherwise noted.
 ## Further Reading
 
 **Published articles — "I Have a Voice" series and Q2 series**  
-Thirteen articles by Adrian Wise Santos establishing the intellectual, biographical, and methodological foundations of GIGO Data™ and Library Method™, published across three languages and three jurisdictions:
+Fifteen articles by Adrian Wise Santos establishing the intellectual, biographical, and methodological foundations of GIGO Data™ and Library Method™, published across three languages and three jurisdictions:
 
 - [2026_02_01 — ARTICLE 001 — I Have a Voice: Why I'm Publishing Now (and Why It Matters)](https://www.linkedin.com/pulse/i-have-voice-why-im-publishing-now-matters-adrian-wise-santos-re2qc)
 - [2026_02_15 — ARTICLE 002 — I Have a Voice: How to Tell What Systems Actually Know](https://www.linkedin.com/pulse/i-have-voice-how-tell-what-systems-actually-know-adrian-wise-santos-m5zic)
@@ -207,9 +209,11 @@ Thirteen articles by Adrian Wise Santos establishing the intellectual, biographi
 - [2026_03_15 — ARTICLE 004_SP 🇧🇷 — Oi GIGO Data™: Conheçam Library Method™](https://www.linkedin.com/pulse/oi-gigo-data-conhe%C3%A7am-library-method-adrian-wise-santos-kaarc)
 - [2026_03_24 — ARTICLE 004_NWT — Introducing Library Method™](https://www.linkedin.com/pulse/introducing-library-method-adrian-wise-santos-mjvfc/)
 - [2026_04_01 — ARTICLE 005 — Designing Products for Agent-Based Architectures](https://www.linkedin.com/pulse/designing-products-agent-based-architectures-adrian-wise-santos-rgiec)
-- [2026_04_05 — ARTICLE 005_SP — Happy Easter Egg 🐣](https://www.linkedin.com/pulse/happy-easter-egg-adrian-wise-santos-m0fwc/)
+- [2026_04_05 — ARTICLE 005_SP — 🐰 Happy Easter Egg 🐣](https://www.linkedin.com/pulse/happy-easter-egg-adrian-wise-santos-m0fwc/)
 - [2026_04_09 — ARTICLE 005_NWT — After the Lobster Party: A Roadmap for What Autonomy Actually Costs](https://www.linkedin.com/pulse/after-lobster-party-roadmap-what-autonomy-actually-costs-santos-iuxme)
 - [2026_04_15 — ARTICLE 006 — Preventing Drift: How to Audit Learning Systems](https://www.linkedin.com/pulse/preventing-drift-how-audit-learning-systems-adrian-wise-santos-hwafe/)
+- [2026_04_23 — ARTICLE 006_SP — The System That Forgot What It Was For](https://www.linkedin.com/pulse/system-forgot-what-adrian-wise-santos-suk6e/)
+- [2026_04_28 — ARTICLE 006_NWT — Drift Is Not a Bug — It's a Feature Nobody Designed.](https://www.linkedin.com/pulse/drift-bug-its-feature-nobody-designed-adrian-wise-santos-miube/)
 
 ---
 

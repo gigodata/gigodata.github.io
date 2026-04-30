@@ -1,6 +1,6 @@
 # GIGO Data™ — Official Website Repository
 
-**Last updated:** 2026-04-15
+**Last updated:** 2026-04-30
 
 This repository contains the source code for the public website of **GIGO Data, Inc.**
 
@@ -114,7 +114,7 @@ GIGO Data, Inc. operates the following registered domains, all routing to the pr
 - gigoworkers.com · buygigo.com
 
 **Concept Domains**
-- autonomygap.com · faithfullyatscale.com
+- autonomygap.com · faithfullyatscale.com · liabilityatscale.com · epistemicfailure.com
 
 **Associated (operated under exclusive licence)**
 - librarymethod.com

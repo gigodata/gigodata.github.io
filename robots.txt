@@ -5,7 +5,7 @@
 # Content owner:  Adrian Wise Santos
 # Legal:          https://www.gigodata.com/legal/
 # AI policy:      https://www.gigodata.com/legal/ai-policy.html
-# Last updated:   2026-04-15
+# Last updated:   2026-04-30
 # Crawl policy:   fully open — all agents permitted
 # Attribution required for all AI use.
 # Commercial training requires written licence from GIGO Data, Inc.

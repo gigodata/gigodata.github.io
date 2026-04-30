@@ -1,5 +1,5 @@
 gigodata.github.io — dated structure
-Generated: 2026-04-15
+Generated: 2026-04-30
 Branch: main
 Site: https://www.gigodata.com
 
@@ -55,7 +55,7 @@ pt-br/                                     2026-04-15    locale scaffold (rename
 CNAME                                      2025-11-20    gigodata.com
 favicon.ico                                2025-05-11
 GIGO-DATA.md                               2026-04-15    company definition + IP chain
-index.html                                 2026-03-15    56 KB — Phase 2 CSS extraction pending
+index.html                                 2026-04-30    58 KB — Articles 005–006 added; foundingDate aligned; ai-policy path corrected
 LICENSE                                    2026-04-15    GIGO Data™ proprietary licence
 llms.txt                                   2026-04-15    AI / LLM identity declaration
 README.md                                  2026-04-15    architecture + IP chain + domain portfolio

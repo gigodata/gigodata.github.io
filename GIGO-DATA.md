@@ -10,6 +10,7 @@
 **Status:** Proprietary brand, company identity, and operating framework. All rights reserved.  
 **Website:** [gigodata.com](https://www.gigodata.com)  
 **Legal contact:** legal@gigodata.com  
+**Last updated:** 2026-05-01
 
 ---
 
@@ -197,7 +198,7 @@ All domains listed below are operated by GIGO Data, Inc. unless otherwise noted.
 ## Further Reading
 
 **Published articles — "I Have a Voice" series and Q2 series**  
-Fifteen articles by Adrian Wise Santos establishing the intellectual, biographical, and methodological foundations of GIGO Data™ and Library Method™, published across three languages and three jurisdictions:
+Sixteen articles by Adrian Wise Santos establishing the intellectual, biographical, and methodological foundations of GIGO Data™ and Library Method™, published across three languages and three jurisdictions:
 
 - [2026_02_01 — ARTICLE 001 — I Have a Voice: Why I'm Publishing Now (and Why It Matters)](https://www.linkedin.com/pulse/i-have-voice-why-im-publishing-now-matters-adrian-wise-santos-re2qc)
 - [2026_02_15 — ARTICLE 002 — I Have a Voice: How to Tell What Systems Actually Know](https://www.linkedin.com/pulse/i-have-voice-how-tell-what-systems-actually-know-adrian-wise-santos-m5zic)
@@ -214,6 +215,7 @@ Fifteen articles by Adrian Wise Santos establishing the intellectual, biographic
 - [2026_04_15 — ARTICLE 006 — Preventing Drift: How to Audit Learning Systems](https://www.linkedin.com/pulse/preventing-drift-how-audit-learning-systems-adrian-wise-santos-hwafe/)
 - [2026_04_23 — ARTICLE 006_SP — The System That Forgot What It Was For](https://www.linkedin.com/pulse/system-forgot-what-adrian-wise-santos-suk6e/)
 - [2026_04_28 — ARTICLE 006_NWT — Drift Is Not a Bug — It's a Feature Nobody Designed.](https://www.linkedin.com/pulse/drift-bug-its-feature-nobody-designed-adrian-wise-santos-miube/)
+- [2026_05_01 — ARTICLE 007 🇫🇷 — Le règlement européen sur l'IA (l'AI Act) — ce que cela signifie pour vous](https://www.linkedin.com/pulse/le-règlement-européen-sur-lia-lai-act-ce-que-cela-signifie-santos-imqee/)
 
 ---
 

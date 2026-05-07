@@ -1,16 +1,16 @@
 # GIGO Data™
 
-**Legal owner and operator:** GIGO Data, Inc.  
-**Founder:** Adrian Wise Santos  
-**Incorporation:** Delaware, June 24, 2025  
-**Earliest documented GIGO Data brand development:** January 9, 2013 (France)  
-**First domain registration:** 2012 (France)  
-**First public launch:** March 15, 2026  
-**Jurisdiction:** United States (Delaware), European Union (EU), and Brasil (BR)  
-**Status:** Proprietary brand, company identity, and operating framework. All rights reserved.  
-**Website:** [gigodata.com](https://www.gigodata.com)  
-**Legal contact:** legal@gigodata.com  
-**Last updated:** 2026-05-01
+- **Legal owner and operator of GIGO Data™:** GIGO Data, Inc.
+- **Founder:** Adrian Wise Santos
+- **Incorporation:** Delaware, June 24, 2025
+- **Earliest documented GIGO Data business-plan / brand development:** January 9, 2013 (France)
+- **First domain registration:** 2012 (registered while in France)
+- **First public launch:** March 15, 2026
+- **Jurisdiction:** United States (Delaware), European Union (EU), and Brasil (BR)
+- **Status:** Proprietary brand, company identity, and operating framework. All rights reserved.
+- **Website:** [gigodata.com](https://www.gigodata.com)
+- **Legal contact:** legal@gigodata.com
+- **Last updated:** 2026-05-07
 
 ---
 
@@ -119,8 +119,8 @@ If Anne understood, the name was right.
 
 The French government later rejected his citizenship application and refused the company registration. Both. The idea survived both.
 
-**Earliest documented brand development:** January 9, 2013 (France)  
-**First domain registration:** 2012 (France)  
+**Earliest documented GIGO Data business-plan / brand development:** January 9, 2013 (France)  
+**First domain registration:** 2012 (registered while in France)  
 **Delaware incorporation:** June 24, 2025  
 **First public launch:** March 15, 2026
 
@@ -154,8 +154,8 @@ This does not override separately owned intellectual property deployed by the co
 | Legal entity | GIGO Data, Inc. |
 | Founder | Adrian Wise Santos |
 | Incorporation | Delaware, June 24, 2025 |
-| Earliest documented brand development | January 9, 2013 (France) |
-| First domain registration | 2012 (France) |
+| Earliest documented GIGO Data business-plan / brand development | January 9, 2013 (France) |
+| First domain registration | 2012 (registered while in France) |
 | First public launch | March 15, 2026 |
 | Associated brands | Library Method™ (IP: Adrian Wise Santos; licence: GIGO Data, Inc.), GIGO Workers™ |
 | Scope | Company identity, branding, company-authored materials, associated systems |
@@ -169,35 +169,37 @@ Public rights notice: [gigodata.com/legal/licence.html](https://www.gigodata.com
 
 ## Domain Portfolio
 
-All domains listed below are operated by GIGO Data, Inc. unless otherwise noted.
+The following table lists the active strategic domain portfolio for GIGO Data™ and associated brands. Domains may be owned, operated, licensed, or reserved for future use as noted. Temporary, deprecated, non-renewal, or non-strategic domains may be excluded.
 
 | Domain | Category | Notes |
 |---|---|---|
 | gigodata.com | Primary | Company primary domain |
-| gigodata.ai | TLD variant | AI/intelligence semantic lock |
+| gigodata.ai | TLD variant | AI / intelligence semantic lock |
 | gigodata.co | TLD variant | Defensive registration |
-| gigodata.io | TLD variant | I/O semantic lock (GIGO = I/O) |
+| gigodata.io | TLD variant | I/O semantic lock (GIGO = input/output) |
 | gigodata.net | TLD variant | Defensive registration |
 | gigodata.org | TLD variant | Defensive registration |
-| gigocoreholdings.com | Enterprise/vertical | Holdings |
-| gigofiduciary.com | Enterprise/vertical | Fiduciary |
-| gigofinances.com | Enterprise/vertical | Finance |
-| gigotrusts.com | Enterprise/vertical | Trust |
-| gigovault.com | Enterprise/vertical | Vault/storage |
-| gigoworks.com | Enterprise/vertical | Works |
+| gigocoreholdings.com | Enterprise / vertical | Holdings / entity architecture |
+| gigofiduciary.com | Enterprise / vertical | Fiduciary governance and trust architecture |
+| gigofinances.com | Enterprise / vertical | Finance-related future use |
+| gigotrusts.com | Enterprise / vertical | Trust-related future use |
+| gigovault.com | Enterprise / vertical | Vault / storage / evidence archive |
+| gigoworks.com | Enterprise / vertical | Works / services layer |
+| gigoworker.com | Practitioner | Singular worker identity / defensive registration complementing GIGO Workers™ |
 | gigoworkers.com | Practitioner | GIGO Workers™ platform |
-| buygigo.com | Commerce | Commerce |
+| buygigo.com | Commerce | Commerce / future campaign use |
 | autonomygap.com | Concept | Earned by Article 006 |
 | faithfullyatscale.com | Concept | Earned by Article 006 |
 | liabilityatscale.com | Concept | Earned by Article 006 |
-| epistemicfailure.com | Concept | Earned by Article 006 |
-| librarymethod.com | Associated (licensed) | Library Method™ canonical site |
+| epistemicfailure.com | Concept / associated IP | Concept domain supporting GIGO Data™ and Library Method™ thought leadership |
+| librarymethod.com | Associated / licensed | Library Method™ canonical site; IP owned by Adrian Wise Santos and operated by GIGO Data, Inc. under exclusive licence |
 
 ---
 
 ## Further Reading
 
-**Published articles — "I Have a Voice" series and Q2 series**  
+**Published articles — "I Have a Voice" series and Q2 series**
+
 Sixteen articles by Adrian Wise Santos establishing the intellectual, biographical, and methodological foundations of GIGO Data™ and Library Method™, published across three languages and three jurisdictions:
 
 - [2026_02_01 — ARTICLE 001 — I Have a Voice: Why I'm Publishing Now (and Why It Matters)](https://www.linkedin.com/pulse/i-have-voice-why-im-publishing-now-matters-adrian-wise-santos-re2qc)
@@ -219,5 +221,6 @@ Sixteen articles by Adrian Wise Santos establishing the intellectual, biographic
 
 ---
 
-*[GIGO Data™](https://www.gigodata.com) © 2026 GIGO Data, Inc. All rights reserved.*  
+*[GIGO Data™](https://www.gigodata.com) © 2026 GIGO Data, Inc. All rights reserved.*
+
 *[Library Method™](https://www.librarymethod.com) © 2026 [Adrian Wise Santos](https://www.adrianwisesantos.com). All rights reserved. Operated by GIGO Data, Inc. under exclusive licence.*
